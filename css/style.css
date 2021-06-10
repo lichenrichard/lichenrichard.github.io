@@ -320,6 +320,9 @@ table tr {
 	border-top:1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 }
+span.cross {
+	text-decoration: line-through;
+}
 /*--------------------------------------------------------------5.0 Forms--------------------------------------------------------------*/
 button,input,select,textarea {
 	font-size:100%;
