@@ -451,25 +451,26 @@ html {
 /*--------------------------------------------------------------6.1 Links--------------------------------------------------------------*/
 a {
 	color:inherit;
-	text-decoration:none;
+	text-decoration:underline dotted;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 	transition:all 0.2s ease-in-out;
 }
 a:visited {
+	text-decoration:underline dotted;
 	color:#666666;
 }
 a:hover {
 	color:#003bfc;
-	text-decoration:none;
+	text-decoration:underline dotted;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 	transition:all 0.2s ease-in-out;
 }
 a:active,a:focus {
-	text-decoration: none;
+	text-decoration:underline dotted;
 }
 /*--------------------------------------------------------------6.2 Logo and Title--------------------------------------------------------------*/
 .site-branding {
@@ -612,7 +613,7 @@ a:active,a:focus {
 	left:5px;
 	line-height:normal;
 	padding:15px 23px 14px;
-	text-decoration:none;
+	text-decoration:underline dotted;
 	top:5px;
 	width:auto;
 	z-index: 100000;
@@ -740,18 +741,18 @@ a:active,a:focus {
 }
 a.more-link {
 	position:relative;
-	text-decoration:none;
+	text-decoration:dotted;
 	font-style:italic;
 	text-transform:lowercase;
 	margin-left:3px;
 }
 a.more-links:before {
 	content:'...';
-	text-decoration:none;
+	text-decoration:dotted;
 	margin-right:3px;
 }
 a.more-link {
-	text-decoration:underline;
+	text-decoration:dotted;
 }
 .entry-content ul li,.entry-content ol li,#comments ul li,#comments ul li {
 	margin-bottom:12px;
