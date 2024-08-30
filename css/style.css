@@ -267,7 +267,7 @@ img {
 @media (min-width:720px) {
     img.frame {
 	border:10px solid #f4f5f6;
-	max-width: 40%;
+	max-width: 30%;
     height: auto;}
 }
 @media (max-width:720px) {
