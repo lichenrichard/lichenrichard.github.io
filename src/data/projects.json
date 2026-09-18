@@ -24,16 +24,12 @@
       {
         "src": "/images/esaias-sports1.webp",
         "alt": "Students learn to join a group for sports activities in ESAIAS.",
-        "caption": "Fig. 1 - Students learn to join a group for sports activities in ESAIAS.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - Students learn to join a group for sports activities in ESAIAS."
       },
       {
         "src": "/images/esaias-sports2.webp",
         "alt": "Students learn to comfort and encourage others in ESAIAS.",
-        "caption": "Fig. 2 - Students learn to comfort and encourage others in ESAIAS.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - Students learn to comfort and encourage others in ESAIAS."
       }
     ],
     "links": [
@@ -46,10 +42,6 @@
         "url": "https://youtu.be/bTV6_ycRiVg"
       }
     ],
-    "mediaIds": [
-      "esaias-demo"
-    ],
-    "relatedPublicationDois": [],
     "awards": [
       {
         "label": "AIREA International Competition on AI in Education 2025 - Champion (Open Category Stream 3)",
@@ -81,23 +73,15 @@
       {
         "src": "/images/rcvr-views.webp",
         "alt": "The counsellor (left) and client (right) at different locations meet in the same virtual counselling room.",
-        "caption": "Fig. 1 - The counsellor (left) and client (right) at different locations meet in the same virtual counselling room. (Source: The Hong Kong Polytechnic University)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The counsellor (left) and client (right) at different locations meet in the same virtual counselling room. (Source: The Hong Kong Polytechnic University)"
       },
       {
         "src": "/images/rcvr-scenes.webp",
         "alt": "Different virtual scenes studied for remote couselling in VR.",
-        "caption": "Fig. 2 - Different virtual scenes studied for remote couselling in VR.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - Different virtual scenes studied for remote couselling in VR."
       }
     ],
     "links": [],
-    "mediaIds": [],
-    "relatedPublicationDois": [
-      "10.1109/ISMAR-Adjunct64951.2024.00070"
-    ],
     "awards": []
   },
   {
@@ -124,16 +108,12 @@
       {
         "src": "/images/comes-campus.webp",
         "alt": "The PolyU virtual campus in COMES.",
-        "caption": "Fig. 1 - The PolyU virtual campus in COMES.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The PolyU virtual campus in COMES."
       },
       {
         "src": "/images/comes-auditorium.webp",
         "alt": "Students participating in collaborative learning in COMES.",
-        "caption": "Fig. 2 - Students participating in collaborative learning in COMES.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - Students participating in collaborative learning in COMES."
       }
     ],
     "links": [
@@ -141,13 +121,6 @@
         "label": "Project Demonstration Video (on YouTube)",
         "url": "https://youtu.be/SU4qGSOmku0"
       }
-    ],
-    "mediaIds": [
-      "comes-demo"
-    ],
-    "relatedPublicationDois": [
-      "10.1007/978-981-96-4407-0_4",
-      "10.1109/TLT.2024.3352743"
     ],
     "awards": []
   },
@@ -183,16 +156,12 @@
       {
         "src": "/images/vrexat-client.webp",
         "alt": "The client's view in the CVE running on Oculus Quest 2.",
-        "caption": "Fig. 1 - The client's view in the CVE running on Oculus Quest 2.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The client's view in the CVE running on Oculus Quest 2."
       },
       {
         "src": "/images/vrexat-therapist.webp",
         "alt": "The therapist's view in the CVE running on Oculus Quest 2. The name of the client has been delibrately blurred.",
-        "caption": "Fig. 2 - The therapist's view in the CVE running on Oculus Quest 2. The name of the client has been delibrately blurred.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - The therapist's view in the CVE running on Oculus Quest 2. The name of the client has been delibrately blurred."
       }
     ],
     "links": [
@@ -204,14 +173,6 @@
         "label": "IEEE VR 2023 Poster",
         "url": "/resources/vrexat-ieeevr-2023-poster.pdf"
       }
-    ],
-    "mediaIds": [
-      "vrexat-demo"
-    ],
-    "relatedPublicationDois": [
-      "10.1109/ISMAR-Adjunct64951.2024.00070",
-      "10.3389/frvir.2023.1059278",
-      "10.1109/VRW58643.2023.00175"
     ],
     "awards": []
   },
@@ -242,16 +203,12 @@
       {
         "src": "/images/hkchvr-reception.webp",
         "alt": "The reception area leading to the operation theaters.",
-        "caption": "Fig. 1 - The reception area leading to the operation theaters.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The reception area leading to the operation theaters."
       },
       {
         "src": "/images/hkchvr-ot.webp",
         "alt": "The virtual operating theatre for exposure.",
-        "caption": "Fig. 2 - The virtual operating theatre for exposure.",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - The virtual operating theatre for exposure."
       }
     ],
     "links": [
@@ -276,13 +233,6 @@
         "url": "https://www.youtube.com/watch?v=xguZfXdScv4"
       }
     ],
-    "mediaIds": [
-      "hkchvr-healthpedia",
-      "hkchvr-government-and-you",
-      "hkchvr-hospital-story",
-      "hkchvr-mingpao"
-    ],
-    "relatedPublicationDois": [],
     "awards": []
   },
   {
@@ -309,16 +259,12 @@
       {
         "src": "/images/cosi-cave.webp",
         "alt": "The COSI VR experience in a CAVE.",
-        "caption": "Fig. 1 - The COSI VR experience in a CAVE. (Source: City University of Hong Kong)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The COSI VR experience in a CAVE. (Source: City University of Hong Kong)"
       },
       {
         "src": "/images/cosi-ar.webp",
         "alt": "The COSI AR experience presented by the development team.",
-        "caption": "Fig. 2 - The COSI AR experience presented by the development team. (Source: City University of Hong Kong)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - The COSI AR experience presented by the development team. (Source: City University of Hong Kong)"
       }
     ],
     "links": [
@@ -330,12 +276,6 @@
         "label": "Jockey Club Enhancing Youth Empathy Project through Immersive Visualisation",
         "url": "https://www.cityu.edu.hk/youthempathy/achievement/en/index.html"
       }
-    ],
-    "mediaIds": [],
-    "relatedPublicationDois": [
-      "10.1109/TVCG.2022.3203091",
-      "10.1111/jcal.12432",
-      "10.21125/inted.2019.2022"
     ],
     "awards": []
   },
@@ -364,9 +304,7 @@
       {
         "src": "/images/vpad2.webp",
         "alt": "vPAD-II in a participating school.",
-        "caption": "Fig. 1 - vPAD-II in a participating school.",
-        "width": 1200,
-        "height": 720
+        "caption": "Fig. 1 - vPAD-II in a participating school."
       }
     ],
     "links": [
@@ -374,12 +312,6 @@
         "label": "vPAD-II Offical Website",
         "url": "http://aimtech.cityu.edu.hk/vpad2/"
       }
-    ],
-    "mediaIds": [],
-    "relatedPublicationDois": [
-      "10.21125/inted.2020.0230",
-      "10.1007/978-3-030-21562-0_8",
-      "10.21125/edulearn.2018.0267"
     ],
     "awards": []
   },
@@ -408,16 +340,12 @@
       {
         "src": "/images/vpad-cave.webp",
         "alt": "vPAD training in action.",
-        "caption": "Fig. 1 - vPAD training in action. (Source: City University of Hong Kong)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - vPAD training in action. (Source: City University of Hong Kong)"
       },
       {
         "src": "/images/vpad-ctp.webp",
         "alt": "Teacher training for participating schools.",
-        "caption": "Fig. 2 - Teacher training for participating schools. (Source: City University of Hong Kong)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 2 - Teacher training for participating schools. (Source: City University of Hong Kong)"
       }
     ],
     "links": [
@@ -429,12 +357,6 @@
         "label": "RGC Impact Case Study",
         "url": "https://impact.ugc.edu.hk/case-study/uoa13-cityu-impact-case-study-002"
       }
-    ],
-    "mediaIds": [],
-    "relatedPublicationDois": [
-      "10.1016/j.compedu.2017.09.010",
-      "10.1080/2331186X.2017.1307709",
-      "10.1007/978-3-319-41165-1_9"
     ],
     "awards": []
   },
@@ -461,16 +383,12 @@
       {
         "src": "/images/vhk-team.webp",
         "alt": "The development team.",
-        "caption": "Fig. 1 - The development team. (Source: City University of Hong Kong)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The development team. (Source: City University of Hong Kong)"
       },
       {
         "src": "/images/vhk-mmt.webp",
         "alt": "Man Mo Temple captured in a high-resolution 360 picture.",
-        "caption": "Fig. 2 - Man Mo Temple captured in a high-resolution 360 picture. (Source: City University of Hong Kong)",
-        "width": 788,
-        "height": 640
+        "caption": "Fig. 2 - Man Mo Temple captured in a high-resolution 360 picture. (Source: City University of Hong Kong)"
       }
     ],
     "links": [
@@ -482,11 +400,6 @@
         "label": "VirtualHK YouTube Channel",
         "url": "https://www.youtube.com/channel/UC4bIb_vkbNsmcMmp4K1tFRA"
       }
-    ],
-    "mediaIds": [],
-    "relatedPublicationDois": [
-      "10.1109/TLT.2018.2878700",
-      "10.1007/978-3-319-47440-3_12"
     ],
     "awards": []
   },
@@ -514,9 +427,7 @@
       {
         "src": "/images/inspal-ms.webp",
         "alt": "The InSPAL multi-sensory experience.",
-        "caption": "Fig. 1 - The InSPAL multi-sensory experience. (Source: City University of Hong Kong)",
-        "width": 960,
-        "height": 640
+        "caption": "Fig. 1 - The InSPAL multi-sensory experience. (Source: City University of Hong Kong)"
       }
     ],
     "links": [
@@ -524,11 +435,6 @@
         "label": "InSPAL @ QEF Cyber Resource Centre",
         "url": "https://qcrc.qef.org.hk/en/search/projectdetails.php?id=6723"
       }
-    ],
-    "mediaIds": [],
-    "relatedPublicationDois": [
-      "10.1109/CADGraphics.2013.49",
-      "10.1007/978-3-642-39750-9_19"
     ],
     "awards": []
   }

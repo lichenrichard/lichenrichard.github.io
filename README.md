@@ -43,7 +43,7 @@ An optional `pdf` URL adds a PDF link beside the DOI on publication rows, includ
 
 Topic selection matches **any** selected topic; year, type, and search apply additional restrictions. Search matches all entered words, without case sensitivity. Filter state is shareable via URL parameters. The complete publication list remains in HTML when JavaScript is unavailable. Citation disclosure and all source links also work without JavaScript.
 
-Media cards are embedded in their related project pages and use existing local project imagery. YouTube players are created only when a visitor activates a preview. Source links remain available if an embedded player cannot play. Provider availability, captions, and embed permissions are controlled by YouTube and the content owners.
+Media cards are embedded in their related project pages and use existing local project imagery. Set `projectId` in `src/data/media.json` and `projectIds` in `src/data/publications.json` to associate content with projects; project pages collect these records automatically. YouTube players are created only when a visitor activates a preview. Source links remain available if an embedded player cannot play. Provider availability, captions, and embed permissions are controlled by YouTube and the content owners.
 
 Verify video playback in a normal browser on the deployed HTTPS domain. Embedded preview browsers may report YouTube error 153 when referrer or client identification is restricted. Direct YouTube links remain available throughout.
 

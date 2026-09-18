@@ -24,7 +24,7 @@
     --overlay-bg: #fff; --overlay-ink: #282428; --overlay-accent: #a6192e;
     --video-ink: #fff; --video-scrim: #0b17202b; --video-hover-scrim: #0b172049;
     --video-gradient: rgba(9,24,46,.25); --video-text-shadow: #000; --video-icon-shadow: #0002;
-    --radius: 16px; --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif; --font-heading: Georgia, "Times New Roman", serif;
+    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif; --font-heading: Georgia, "Times New Roman", serif;
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
@@ -107,7 +107,6 @@
   .nav-toggle { display: none; min-height: 44px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 6px; padding: 10px 12px; }
   .nav-toggle-icon { margin-left: 8px; }
   .hero { padding-block: 64px 60px; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); align-items: center; gap: 74px; }
-  .hero .eyebrow { letter-spacing: .11em; font-size: .7rem; }
   .hero h1 { font-size: clamp(3.4rem, 5.7vw, 5.15rem); max-width: 690px; line-height: 1.1; font-weight: 400; }
   .hero h1 em { color: var(--accent); font-style: normal; font-weight: 400; }
   .hero-greeting { display: block; margin-bottom: 22px; font: 400 1.15rem/1.5 var(--font-heading); color: var(--accent); }
@@ -284,7 +283,6 @@
     .brand small { font-size: .65rem; }
     .hero { grid-template-columns: 1fr; gap: 32px; padding-block: 38px 30px; }
     .hero h1 { font-size: clamp(2.8rem, 10.6vw, 4rem); max-width: 500px; }
-    .hero .eyebrow { font-size: .64rem; margin-bottom: 20px; }
     .hero-intro { margin-top: 20px; font-size: .96rem; }
     .hero-actions { margin-top: 24px; gap: 10px; }
     .button { padding: 12px 15px; font-size: .79rem; gap: 12px; }
