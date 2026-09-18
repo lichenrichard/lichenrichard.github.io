@@ -3,6 +3,9 @@ import topics from '../data/publication-tags.json';
 const { publication: p, compact = false } = Astro.props;
 const labels = Object.fromEntries(topics.map(t => [t.id, t.label]));
 const types = { journal: 'Journal article', conference: 'Conference paper', chapter: 'Book chapter', book: 'Edited book', editorial: 'Editorial' };
+const pdfUrl = p.pdf || p.pdfPage;
+const pdfDetails = [p.pdfVersion === 'preprint' ? 'preprint' : p.pdfVersion === 'accepted' ? 'accepted' : p.pdfVersion === 'author' ? 'manuscript' : '', !p.pdf && p.pdfPage ? 'ResearchGate' : ''].filter(Boolean);
+const pdfLabel = pdfDetails.length ? `PDF (${pdfDetails.join(', ')})` : 'PDF';
 ---
 <article class:list={['publication-row', { compact }]} data-publication data-year={p.year} data-type={p.type} data-tags={p.tags.join(' ')} data-search={`${p.title} ${p.authors} ${p.venue} ${p.citation}`.toLowerCase()} data-title={p.title.toLowerCase()} id={p.id}>
   <div class="publication-year">{p.year}<span>{p.status === 'forthcoming' ? 'Forthcoming' : (types as Record<string, string>)[p.type]}</span></div>
@@ -10,8 +13,9 @@ const types = { journal: 'Journal article', conference: 'Conference paper', chap
     <h3>{p.doi ? <a href={p.doi}>{p.title}</a> : p.title}</h3>
     <p class="publication-authors">{Array.isArray(p.authors) ? p.authors.join(', ') : p.authors}</p>
     <p class="publication-venue">{p.venue}</p>
-    <div class="publication-bottom"><div class="tags">{p.tags.map((tag: string) => <a href={`/publication.html?topic=${tag}`} class="tag">{labels[tag] || tag}</a>)}</div><div class="publication-links">{p.doi && <a href={p.doi}>DOI ↗</a>}{p.projectIds?.length > 0 && <a href={`/${p.projectIds[0]}.html`}>Project ↗</a>}</div></div>
-    {!compact && <details class="citation"><summary>Cite this work</summary><p>{p.citation}</p><button class="copy-citation" type="button" hidden>Copy citation</button><span class="copy-status" role="status"></span></details>}
+    {p.publicationNote && <p class="publication-authors">{p.publicationNote}</p>}
+    <div class="publication-bottom"><div class="tags">{p.tags.map((tag: string) => <a href={`/publication.html?topic=${tag}`} class="tag">{labels[tag] || tag}</a>)}</div><div class="publication-links">{p.doi && <a href={p.doi}>DOI ↗</a>}{pdfUrl && <a href={pdfUrl} type={p.pdf ? 'application/pdf' : undefined} aria-label={`${pdfLabel}: ${p.title}`}>{pdfLabel} ↗</a>}{p.projectIds?.length > 0 && <a href={`/${p.projectIds[0]}.html`}>Project ↗</a>}</div></div>
+    {!compact && <details class="citation"><summary>Cite this work (APA)</summary><p>{p.citation}</p><button class="copy-citation" type="button" hidden>Copy citation</button><span class="copy-status" role="status"></span></details>}
   </div>
 </article>
 <script>

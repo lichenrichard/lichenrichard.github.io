@@ -2,53 +2,60 @@
   {
     "id": "doi-10-1007-978-3-032-29770-9-45",
     "title": "Bridging AI Prompting and Design Thinking: Behavioral Patterns and Pedagogical Insights from a Design Workshop",
-    "authors": "Zhu, W., Zhang, F., Li, C.",
-    "year": 2026,
+    "authors": "Zhu, W., Zhang, F., & Li, C.",
+    "year": 2027,
     "type": "conference",
-    "status": "forthcoming",
+    "status": "published",
     "venue": "Artificial Intelligence in Education (AIED 2026)",
-    "citation": "Zhu, W., Zhang, F., Li, C. (2026). Bridging AI Prompting and Design Thinking: Behavioral Patterns and Pedagogical Insights from a Design Workshop. In Artificial Intelligence in Education (AIED 2026) (pp. 411-420). Springer, Cham. https://doi.org/10.1007/978-3-032-29770-9_45",
+    "citation": "Zhu, W., Zhang, F., & Li, C. (2027). Bridging AI prompting and design thinking: Behavioral patterns and pedagogical insights from a design workshop. In E. G. Blanchard, G. Chen, M. Chi, & S. Isotani (Eds.), Artificial intelligence in education: 27th International Conference, AIED 2026, Seoul, South Korea, June 27–July 3, 2026, proceedings, part V (pp. 411–420). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-29770-9_45",
     "doi": "https://doi.org/10.1007/978-3-032-29770-9_45",
     "tags": [
       "human-ai",
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "publicationNote": "Published online 27 June 2026; final proceedings dated 2027.",
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/408145367_Bridging_AI_Prompting_and_Design_Thinking_Behavioral_Patterns_and_Pedagogical_Insights_from_a_Design_Workshop"
   },
   {
     "id": "doi-10-2196-84083",
     "title": "Web-Based Gamified Auditory-Cognitive Dual-Task Training for Older Adults With Age-Related Hearing Loss: Pilot Randomized Controlled Trial",
-    "authors": "Zhao, I. Y., Leung, A. Y. M., Li, C., Parial, L. L., Ma, H., Montayre, J., Golub, J. S., Sweetow, R., Ng, J. H., & Chan, E. A.",
+    "authors": "Zhao, I. Y., Leung, A. Y. M., Li, C., Lloyd Parial, L., Ma, H., Montayre, J., Golub, J. S., Sweetow, R., Ng, J. H.-Y., & Chan, E. A.",
     "year": 2026,
     "type": "journal",
-    "status": "forthcoming",
+    "status": "published",
     "venue": "JMIR Aging",
-    "citation": "Zhao, I. Y., Leung, A. Y. M., Li, C., Parial, L. L., Ma, H., Montayre, J., Golub, J. S., Sweetow, R., Ng, J. H., & Chan, E. A. (2026). Web-Based Gamified Auditory-Cognitive Dual-Task Training for Older Adults With Age-Related Hearing Loss: Pilot Randomized Controlled Trial. JMIR Aging, 9:e84083. https://doi.org/10.2196/84083",
+    "citation": "Zhao, I. Y., Leung, A. Y. M., Li, C., Lloyd Parial, L., Ma, H., Montayre, J., Golub, J. S., Sweetow, R., Ng, J. H.-Y., & Chan, E. A. (2026). Web-based gamified auditory-cognitive dual-task training for older adults with age-related hearing loss: Pilot randomized controlled trial. JMIR Aging, 9, Article e84083. https://doi.org/10.2196/84083",
     "doi": "https://doi.org/10.2196/84083",
     "tags": [
       "wellbeing",
       "accessibility"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://aging.jmir.org/2026/1/e84083/PDF"
   },
   {
     "id": "doi-10-2196-79954",
-    "title": "Digital humans for depression assessment and intervention support: A scoping review",
+    "title": "Digital Humans for Depression Assessment and Intervention Support: Scoping Review",
     "authors": "Cao, J., Gao, W., Wen, R., Li, C., Hoermann, S., Baghaei, N., & Billinghurst, M.",
-    "year": 2025,
+    "year": 2026,
     "type": "journal",
     "status": "published",
     "venue": "JMIR Mental Health",
-    "citation": "Cao, J., Gao, W., Wen, R., Li, C., Hoermann, S., Baghaei, N., & Billinghurst, M. (2025). Digital humans for depression assessment and intervention support: A scoping review. JMIR Mental Health, 13:e79954. https://doi.org/10.2196/79954",
+    "citation": "Cao, J., Gao, W., Wen, R., Li, C., Hoermann, S., Baghaei, N., & Billinghurst, M. (2026). Digital humans for depression assessment and intervention support: Scoping review. JMIR Mental Health, 13, Article e79954. https://doi.org/10.2196/79954",
     "doi": "https://doi.org/10.2196/79954",
     "tags": [
       "human-ai",
       "wellbeing"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://mental.jmir.org/2026/1/e79954/PDF"
   },
   {
     "id": "doi-10-3390-healthcare13222926",
@@ -65,7 +72,9 @@
       "accessibility"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://openrepository.aut.ac.nz/server/api/core/bitstreams/a5fa7aab-33d1-4b51-80fe-04d7d5750375/content"
   },
   {
     "id": "doi-10-1016-j-invent-2025-100883",
@@ -83,7 +92,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": true
+    "featured": true,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/117496/1/1-s2.0-S2214782925000843-main.pdf"
   },
   {
     "id": "doi-10-3389-frvir-2025-1458191",
@@ -99,7 +110,9 @@
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2025.1458191/pdf"
   },
   {
     "id": "doi-10-1016-j-chb-2025-108598",
@@ -116,7 +129,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": true
+    "featured": true,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/111642/1/1-s2.0-S0747563225000457-main.pdf"
   },
   {
     "id": "doi-10-1038-s41746-025-01609-y",
@@ -133,23 +148,27 @@
       "wellbeing"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/112675/1/s41746-025-01609-y.pdf"
   },
   {
     "id": "doi-10-1016-j-ijhcs-2024-103399",
     "title": "Traceable teleportation: Improving spatial learning in virtual locomotion",
     "authors": "Jia, Y., Sin, Z. P. T., Li, C., Ng, P. H., Huang, X., Baciu, G., Cao, J., & Li, Q.",
-    "year": 2024,
+    "year": 2025,
     "type": "journal",
     "status": "published",
     "venue": "International Journal of Human-Computer Studies",
-    "citation": "Jia, Y., Sin, Z. P. T., Li, C., Ng, P. H., Huang, X., Baciu, G., Cao, J., & Li, Q. (2024). Traceable teleportation: Improving spatial learning in virtual locomotion. International Journal of Human-Computer Studies, 194, 103399. https://doi.org/10.1016/j.ijhcs.2024.103399",
+    "citation": "Jia, Y., Sin, Z. P. T., Li, C., Ng, P. H., Huang, X., Baciu, G., Cao, J., & Li, Q. (2025). Traceable teleportation: Improving spatial learning in virtual locomotion. International Journal of Human-Computer Studies, 194, 103399. https://doi.org/10.1016/j.ijhcs.2024.103399",
     "doi": "https://doi.org/10.1016/j.ijhcs.2024.103399",
     "tags": [
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://www.pocketa.app/paperPdf/Traceable_Teleportation.pdf"
   },
   {
     "id": "doi-10-1109-tlt-2024-3492352",
@@ -166,7 +185,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/112231/1/Ng_Traditional_Service_Learning.pdf"
   },
   {
     "id": "doi-10-2196-58963",
@@ -185,7 +206,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://games.jmir.org/2024/1/e58963/PDF"
   },
   {
     "id": "doi-10-1001-jamanetworkopen-2024-13835",
@@ -202,7 +225,9 @@
       "wellbeing"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://access.archive-ouverte.unige.ch/access/metadata/54175e0f-c84d-440b-bd8f-467a22ae9fe4/download"
   },
   {
     "id": "doi-10-1109-tlt-2024-3406638",
@@ -220,7 +245,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106782/1/Jia_Knowledge_Graph_Driven.pdf"
   },
   {
     "id": "doi-10-1080-0144929x-2023-2178830",
@@ -236,7 +263,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106783/1/48190_Liu_Disentangling_Relation_Trust.pdf"
   },
   {
     "id": "doi-10-1109-tlt-2024-3352743",
@@ -256,24 +285,28 @@
     "projectIds": [
       "comes"
     ],
-    "featured": true
+    "featured": true,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106784/1/Li_Collaborative_Learning_Edu-Metaverse.pdf"
   },
   {
     "id": "doi-10-1109-tlt-2023-3290814",
-    "title": "Towards an Edu-Metaverse of Knowledge: Immersive Exploration of University Courses",
-    "authors": "Sin, Z. P. T., Jia, Y., Wu, A. C. H., Li, R. C., Ng, P. H. F., Huang, X., Baciu, G., Cao, J., & Li, Q.",
+    "title": "Toward an Edu-Metaverse of Knowledge: Immersive Exploration of University Courses",
+    "authors": "Sin, Z. P. T., Jia, Y., Wu, A. C. H., Zhao, I. D., Li, R. C., Ng, P. H. F., Huang, X., Baciu, G., Cao, J., & Li, Q.",
     "year": 2023,
     "type": "journal",
     "status": "published",
     "venue": "IEEE Transactions on Learning Technologies",
-    "citation": "Sin, Z. P. T., Jia, Y., Wu, A. C. H., Li, R. C., Ng, P. H. F., Huang, X., Baciu, G., Cao, J., & Li, Q. (2023). Towards an Edu-Metaverse of Knowledge: Immersive Exploration of University Courses. IEEE Transactions on Learning Technologies, 16(6), 1096-1110. https://doi.org/10.1109/TLT.2023.3290814",
+    "citation": "Sin, Z. P. T., Jia, Y., Wu, A. C. H., Zhao, I. D., Li, R. C., Ng, P. H. F., Huang, X., Baciu, G., Cao, J., & Li, Q. (2023). Toward an Edu-Metaverse of knowledge: Immersive exploration of university courses. IEEE Transactions on Learning Technologies, 16(6), 1096–1110. https://doi.org/10.1109/TLT.2023.3290814",
     "doi": "https://doi.org/10.1109/TLT.2023.3290814",
     "tags": [
       "vr-ar",
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106785/1/Sin_Toward_Edu-Metaverse_Knowledge.pdf"
   },
   {
     "id": "doi-10-1186-s13756-023-01293-1",
@@ -289,7 +322,9 @@
       "wellbeing"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://access.archive-ouverte.unige.ch/access/metadata/2f1ae40b-a4da-4fec-85c4-5dabe35a7b3a/download"
   },
   {
     "id": "doi-10-3390-electronics12112497",
@@ -307,7 +342,9 @@
       "accessibility"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106787/1/electronics-12-02497.pdf"
   },
   {
     "id": "doi-10-3389-frvir-2023-1059278",
@@ -327,17 +364,19 @@
     "projectIds": [
       "vrexat"
     ],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2023.1059278/pdf"
   },
   {
     "id": "doi-10-1080-10494820-2022-2107681",
     "title": "Enhance Affective Expression and Social Reciprocity for Children with Autism Spectrum Disorder: using Virtual Reality Headsets at Schools",
     "authors": "Ip, H. H. S., Wong, S. W.L., Chan, D. F. Y., Li, C., Kon, L. L., Ma, P. K., Lau, K. S. Y., & Byrne, J.",
-    "year": 2022,
+    "year": 2024,
     "type": "journal",
     "status": "published",
-    "venue": "Interactive Learning Environment",
-    "citation": "Ip, H. H. S., Wong, S. W.L., Chan, D. F. Y., Li, C., Kon, L. L., Ma, P. K., Lau, K. S. Y., & Byrne, J. (2022). Enhance Affective Expression and Social Reciprocity for Children with Autism Spectrum Disorder: using Virtual Reality Headsets at Schools. Interactive Learning Environment, 32(3), 1012-1035. https://doi.org/10.1080/10494820.2022.2107681",
+    "venue": "Interactive Learning Environments",
+    "citation": "Ip, H. H. S., Wong, S. W.L., Chan, D. F. Y., Li, C., Kon, L. L., Ma, P. K., Lau, K. S. Y., & Byrne, J. (2024). Enhance affective expression and social reciprocity for children with autism spectrum disorder: Using virtual reality headsets at schools. Interactive Learning Environments, 32(3), 1012–1035. https://doi.org/10.1080/10494820.2022.2107681",
     "doi": "https://doi.org/10.1080/10494820.2022.2107681",
     "tags": [
       "vr-ar",
@@ -346,7 +385,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "accepted",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106788/1/Ip_Enhance_Affective_Expression.pdf"
   },
   {
     "id": "doi-10-1109-tvcg-2022-3203091",
@@ -366,7 +407,9 @@
     "projectIds": [
       "cosi"
     ],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "accepted",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106789/1/Post_COSI_ISMAR_2022_TVCG.pdf"
   },
   {
     "id": "doi-10-1504-ijil-2022-10044241",
@@ -376,14 +419,16 @@
     "type": "journal",
     "status": "published",
     "venue": "International Journal of Innovation and Learning",
-    "citation": "Li, C., & Ip, H. H. S. (2022). Defining Virtual Reality enabled Learning. International Journal of Innovation and Learning, 31(3), 291-306. https://doi.org/10.1504/IJIL.2022.10044241",
-    "doi": "https://doi.org/10.1504/IJIL.2022.10044241",
+    "citation": "Li, C., & Ip, H. H. S. (2022). Defining virtual reality enabled learning. International Journal of Innovation and Learning, 31(3), 291–306. https://doi.org/10.1504/IJIL.2022.122128",
+    "doi": "https://doi.org/10.1504/IJIL.2022.122128",
     "tags": [
       "vr-ar",
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "accepted",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106790/1/Li_Defining_Virtual_Reality.pdf"
   },
   {
     "id": "doi-10-1109-tvcg-2021-3067773",
@@ -399,7 +444,9 @@
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/350361243_Floor-vibration_VR_Mitigating_Cybersickness_Using_Whole-body_Tactile_Stimuli_in_Highly_Realistic_Vehicle_Driving_Experiences"
   },
   {
     "id": "doi-10-1504-ijil-2021-118194",
@@ -417,7 +464,9 @@
       "accessibility"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/355352383_Experiential_learning_for_children_with_autism_spectrum_disorder_using_virtual_reality_headsets_a_preliminary_report"
   },
   {
     "id": "doi-10-1504-ijil-2021-118190",
@@ -469,17 +518,19 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/332004565_Learning_engagement_via_promoting_situational_interest_in_a_blended_learning_environment"
   },
   {
     "id": "doi-10-1109-tlt-2018-2878700",
     "title": "Design and Evaluate Immersive Learning Experience for Massive Open Online Courses (MOOCs)",
     "authors": "Ip, H. H. S., Li, C., Leoni, S., Chen, Y., Ma, K. F., Wong, C. H. T., & Li, Q.",
-    "year": 2018,
+    "year": 2019,
     "type": "journal",
     "status": "published",
     "venue": "IEEE Transactions on Learning Technologies",
-    "citation": "Ip, H. H. S., Li, C., Leoni, S., Chen, Y., Ma, K. F., Wong, C. H. T., & Li, Q. (2018). Design and Evaluate Immersive Learning Experience for Massive Open Online Courses (MOOCs). IEEE Transactions on Learning Technologies, 12(4), 503-515. https://doi.org/10.1109/TLT.2018.2878700",
+    "citation": "Ip, H. H. S., Li, C., Leoni, S., Chen, Y., Ma, K. F., Wong, C. H. T., & Li, Q. (2019). Design and evaluate immersive learning experience for massive open online courses (MOOCs). IEEE Transactions on Learning Technologies, 12(4), 503–515. https://doi.org/10.1109/TLT.2018.2878700",
     "doi": "https://doi.org/10.1109/TLT.2018.2878700",
     "tags": [
       "vr-ar",
@@ -529,7 +580,9 @@
     "projectIds": [
       "vpad"
     ],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/316030167_Visuospatial_attention_in_children_with_Autism_Spectrum_Disorder_A_comparison_between_2-D_and_3-D_environments"
   },
   {
     "id": "doi-10-1007-978-981-92-3761-6",
@@ -692,7 +745,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://aquila.usm.edu/cgi/viewcontent.cgi?article=1495&context=jetde"
   },
   {
     "id": "doi-10-3390-su152014915",
@@ -708,7 +763,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/106194/1/sustainability-15-14915.pdf"
   },
   {
     "id": "doi-10-1145-3770855-3818245",
@@ -747,36 +804,40 @@
   },
   {
     "id": "doi-10-1145-3772318-3791653",
-    "title": "Agentic Audio Moderators vs Humans in Think-Aloud Usability Testing",
+    "title": "Agentic Audio Moderator vs Human Moderator in Think-Aloud Usability Testing: Results from a Randomized Controlled Trial",
     "authors": "Zhu, W., Chen, G., Wang, Y., An, P., Du, J., & Li, C.",
     "year": 2026,
     "type": "conference",
     "status": "published",
     "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-    "citation": "Zhu, W., Chen, G., Wang, Y., An, P., Du, J., & Li, C. (2026). Agentic Audio Moderators vs Humans in Think-Aloud Usability Testing. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (pp. 1-19). ACM. https://doi.org/10.1145/3772318.3791653",
+    "citation": "Zhu, W., Chen, G., Wang, Y., An, P., Du, J., & Li, C. (2026). Agentic audio moderator vs human moderator in think-aloud usability testing: Results from a randomized controlled trial. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (Article 727, pp. 1–19). Association for Computing Machinery. https://doi.org/10.1145/3772318.3791653",
     "doi": "https://doi.org/10.1145/3772318.3791653",
     "tags": [
       "human-ai"
     ],
     "projectIds": [],
-    "featured": true
+    "featured": true,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/403762230_Agentic_Audio_Moderator_vs_Human_Moderator_in_Think-Aloud_Usability_Testing_Results_from_a_Randomized_Controlled_Trial"
   },
   {
     "id": "doi-10-1007-978-981-92-0042-9-4",
     "title": "PockeTA: Virtual Teaching Assistant Platform with Course Context",
     "authors": "Sin, Z. P., Cheung, M. H., Jia, Y., Wang, X. E., Lai, M. W., Li, C., Huang, X., Ng, P. H. F., Baciu, G., & Li, Q.",
-    "year": 2025,
+    "year": 2026,
     "type": "conference",
     "status": "published",
     "venue": "International Symposium on Emerging Technologies for Education",
-    "citation": "Sin, Z. P., Cheung, M. H., Jia, Y., Wang, X. E., Lai, M. W., Li, C., Huang, X., Ng, P. H. F., Baciu, G., & Li, Q. (2025). PockeTA: Virtual Teaching Assistant Platform with Course Context. In International Symposium on Emerging Technologies for Education (pp. 41-55). Singapore: Springer Nature Singapore. https://doi.org/10.1007/978-981-92-0042-9_4",
+    "citation": "Sin, Z. P., Cheung, M. H., Jia, Y., Wang, X. E., Lai, M. W., Li, C., Huang, X., Ng, P. H. F., Baciu, G., & Li, Q. (2026). PockeTA: Virtual teaching assistant platform with course context. In Learning technologies and systems (pp. 41–55). Springer Nature Singapore. https://doi.org/10.1007/978-981-92-0042-9_4",
     "doi": "https://doi.org/10.1007/978-981-92-0042-9_4",
     "tags": [
       "human-ai",
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/408299743_PockeTA_Virtual_Teaching_Assistant_Platform_with_Course_Context"
   },
   {
     "id": "doi-10-1109-swc65939-2025-00274",
@@ -793,7 +854,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/401005525_Gamified_Constructivist_Teaching_in_the_Metaverse_Motivating_University_Student_Participation_in_Climate_Change_Education",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1109-swc65939-2025-00278",
@@ -811,7 +874,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "author",
+    "pdf": "https://www.pocketa.app/paperPdf/Towards_AI-Assisted.pdf"
   },
   {
     "id": "doi-10-1007-978-981-95-4499-8-32",
@@ -828,7 +893,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/397999469_Human-Al_Collaboration_in_the_STEM_Classroom_A_Systematic_Literature_Review_of_GenAI_as_a_Complement_in_Higher_Education"
   },
   {
     "id": "doi-10-1145-3711896-3737378",
@@ -844,7 +911,9 @@
       "human-ai"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/114572/1/3711896.3737378.pdf"
   },
   {
     "id": "doi-10-1145-3746059-3747673",
@@ -861,7 +930,9 @@
       "human-ai"
     ],
     "projectIds": [],
-    "featured": true
+    "featured": true,
+    "pdfVersion": "published",
+    "pdfPage": "https://www.researchgate.net/publication/395922627_Can_You_Move_These_Over_There_Exploring_an_LLM-based_VR_Mover_to_Support_Natural_Multi-object_Manipulation"
   },
   {
     "id": "doi-10-1007-978-981-96-8430-4-15",
@@ -877,7 +948,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/392949831_Enhance_Learner_Engagement_Through_Experiential_Learning_in_a_Gamified_Simulation_A_Longitudinal_Study",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1145-3706599-3720086",
@@ -895,17 +968,19 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ira.lib.polyu.edu.hk/bitstream/10397/113132/1/3706599.3720086.pdf"
   },
   {
     "id": "doi-10-1007-978-981-96-4407-0-4",
     "title": "Towards Effective Collaborative Learning in Edu-Metaverse: A Study on Learners' Anxiety, Perception, and Behaviour",
     "authors": "Lu, Y., Jia, Y., Chen, G., Wang, Y., Ng, P. H., Zhou, L., Li, Q., & Li, C.",
-    "year": 2024,
+    "year": 2025,
     "type": "conference",
     "status": "published",
     "venue": "Learning Technologies and Systems",
-    "citation": "Lu, Y., Jia, Y., Chen, G., Wang, Y., Ng, P. H., Zhou, L., Li, Q., & Li, C. (2024). Towards Effective Collaborative Learning in Edu-Metaverse: A Study on Learners' Anxiety, Perception, and Behaviour. In Learning Technologies and Systems (pp. 44-58). Springer. https://doi.org/10.1007/978-981-96-4407-0_4",
+    "citation": "Lu, Y., Jia, Y., Chen, G., Wang, Y., Ng, P. H., Zhou, L., Li, Q., & Li, C. (2025). Towards effective collaborative learning in Edu-Metaverse: A study on learners' anxiety, perception, and behaviour. In Learning technologies and systems (pp. 44–58). Springer. https://doi.org/10.1007/978-981-96-4407-0_4",
     "doi": "https://doi.org/10.1007/978-981-96-4407-0_4",
     "tags": [
       "vr-ar",
@@ -915,7 +990,9 @@
     "projectIds": [
       "comes"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/390975966_Towards_Effective_Collaborative_Learning_in_Edu-Metaverse_A_Study_on_Learners%27_Anxiety_Perception_and_Behaviour",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1109-ismar-adjunct64951-2024-00070",
@@ -935,7 +1012,9 @@
       "rcvr",
       "vrexat"
     ],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://yunsuenpai.com/assets/pdf/counselling.pdf"
   },
   {
     "id": "doi-10-1145-3677386-3688902",
@@ -951,7 +1030,9 @@
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/384692732_Enable_Natural_User_Interactions_in_Handheld_Mobile_Augmented_Reality_through_Image_Computing",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1109-metacom62920-2024-00023",
@@ -969,7 +1050,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "author",
+    "pdf": "https://www.pocketa.app/paperPdf/NivTA.pdf"
   },
   {
     "id": "doi-10-1109-metacom62920-2024-00035",
@@ -986,7 +1069,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/385616813_Gamified_Constructivist_Teaching_in_Metaverse_Revolutionizing_Language_Learning_in_University_via_an_Immersive_Experience",
+    "pdfVersion": "author"
   },
   {
     "id": "doi-10-1109-vr58804-2024-00111",
@@ -1002,7 +1087,9 @@
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ye-0413.github.io/publication/sin-2024-illumotion/sin-2024-illumotion.pdf"
   },
   {
     "id": "doi-10-1007-978-981-99-8385-8-8",
@@ -1019,7 +1106,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://ye-0413.github.io/publication/ng-2023-classroom/ng-2023-classroom.pdf"
   },
   {
     "id": "doi-10-1007-978-981-99-8385-8-10",
@@ -1035,7 +1124,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/375859312_Gradual_Study_Advising_with_Course_Knowledge_Graphs",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-031-33023-0-19",
@@ -1069,7 +1160,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdf": "https://www4.comp.polyu.edu.hk/~xiaohuang/docs/2022ICWL_Jerry.pdf",
+    "pdfVersion": "author"
   },
   {
     "id": "doi-10-1109-vrw58643-2023-00175",
@@ -1105,7 +1198,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/365218411_Dive_In_Computer_World_Action_A_Platform_Game_for_Secondary_School_Students_to_Learn_Boolean_Operations_in_Computer_Science",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-031-08939-8-12",
@@ -1123,7 +1218,9 @@
       "social"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/361388355_Collaborative_Virtual_Environment_for_Distant_and_Blended_Learning_in_the_Higher_Education_Setting_A_Systematic_Review",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-031-08939-8-31",
@@ -1139,7 +1236,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/361388151_KCUBE_A_Knowledge_Graph_University_Curriculum_Framework_for_Student_Advising_and_Career_Planning",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1109-vrw55335-2022-00158",
@@ -1189,7 +1288,9 @@
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://www.hci.otago.ac.nz/papers/TongACHCI2020.pdf"
   },
   {
     "id": "doi-10-2312-egve-20201265",
@@ -1205,7 +1306,9 @@
       "vr-ar"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdf": "https://diglib.eg.org/bitstream/handle/10.2312/egve20201265/113-120.pdf?isAllowed=n&sequence=1",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-21125-inted-2020-0230",
@@ -1225,7 +1328,9 @@
     "projectIds": [
       "vpad2"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/340124973_A_TEACHER_TRAINING_APPROACH_TO_SUSTAIN_VIRTUAL_REALITY_ENABLED_LEARNING_IN_THE_INCLUSIVE_EDUCATION_SETTING_FOR_CHILDREN_WITH_AUTISM_SPECTRUM_DISORDER",
+    "pdfVersion": "author"
   },
   {
     "id": "doi-10-1007-978-3-030-21562-0-8",
@@ -1265,23 +1370,27 @@
     "projectIds": [
       "cosi"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/331674371_A_PRELIMINARY_STUDY_ON_USING_VIRTUAL_REALITY_TECHNOLOGIES_FOR_CULTURAL_SENSITIVITY_EDUCATION",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-319-94505-7-6",
     "title": "Cultivating situational interest in blended learning environment",
-    "authors": "Hui, Y. K., Li, C., & Qian, S.",
+    "authors": "Hui, Y. K., Li, C., Qian, S., & Kwok, L.-F.",
     "year": 2018,
     "type": "conference",
     "status": "published",
     "venue": "International Conference on Blended Learning",
-    "citation": "Hui, Y. K., Li, C., & Qian, S. (2018). Cultivating situational interest in blended learning environment. In International Conference on Blended Learning (pp. 81-92). Springer, Cham. https://doi.org/10.1007/978-3-319-94505-7_6",
+    "citation": "Hui, Y. K., Li, C., Qian, S., & Kwok, L.-F. (2018). Cultivating situational interest in blended learning environment. In International Conference on Blended Learning (pp. 81-92). Springer, Cham. https://doi.org/10.1007/978-3-319-94505-7_6",
     "doi": "https://doi.org/10.1007/978-3-319-94505-7_6",
     "tags": [
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/325920939_Cultivating_Situational_Interest_in_Blended_Learning_Environment",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-21125-edulearn-2018-0267",
@@ -1301,7 +1410,9 @@
     "projectIds": [
       "vpad2"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/326714881_A_CASE_STUDY_ON_DELIVERING_VIRTUAL_REALITY_LEARNING_FOR_CHILDREN_WITH_AUTISM_SPECTRUM_DISORDER_USING_VIRTUAL_REALITY_HEADSETS",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-319-47440-3-12",
@@ -1320,7 +1431,9 @@
     "projectIds": [
       "vhk"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/312698018_Delivering_Immersive_Learning_Experience_for_Massive_Open_Online_Courses_MOOCs",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-319-41165-1-9",
@@ -1358,7 +1471,9 @@
       "education"
     ],
     "projectIds": [],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/300650194_Virtual_Reality-Based_Learning_Environments_Recent_Developments_and_Ongoing_Challenges",
+    "pdfVersion": "author"
   },
   {
     "id": "doi-10-1109-cadgraphics-2013-49",
@@ -1377,7 +1492,9 @@
     "projectIds": [
       "inspal"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/269307235_AIMtechKinect_A_Kinect_Based_Interaction-Oriented_Gesture_Recognition_System_Designed_for_Students_with_Severe_Intellectual_Disabilities",
+    "pdfVersion": "published"
   },
   {
     "id": "doi-10-1007-978-3-642-39750-9-19",
@@ -1397,6 +1514,8 @@
     "projectIds": [
       "inspal"
     ],
-    "featured": false
+    "featured": false,
+    "pdfPage": "https://www.researchgate.net/publication/299697248_Interactive_Sensory_Program_for_Affective_Learning_InSPAL_An_Innovative_Learning_Program_Combining_Interactive_Media_and_Virtual_Reality_for_Severely_Intellectually_Disabled_Students",
+    "pdfVersion": "author"
   }
 ]

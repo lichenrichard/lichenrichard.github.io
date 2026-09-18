@@ -159,12 +159,12 @@
   .publication-body h3 a { text-decoration: none; }
   .publication-authors { font-size: .8rem; margin-top: 9px; }
   .publication-venue { color: var(--ink); font-size: .8rem; margin-top: 5px; }
-  .publication-bottom { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-top: 16px; }
+  .publication-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-top: 16px; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag { display: inline-flex; align-items: center; min-height: 28px; border-radius: 4px; background: var(--tag-bg); color: var(--tag-ink); padding: 4px 9px; font-size: .65rem; line-height: 1.5; text-decoration: none; }
   .tag:hover { color: var(--accent); background: var(--tag-hover-bg); }
-  .publication-links { display: flex; gap: 18px; flex-shrink: 0; }
-  .publication-links a { color: var(--accent); text-decoration: none; font-size: .75rem; }
+  .publication-links { display: flex; flex-wrap: wrap; gap: 8px 18px; flex-shrink: 0; max-width: 100%; }
+  .publication-links a { color: var(--accent); text-decoration: none; font-size: .75rem; white-space: nowrap; }
   .citation { margin-top: 16px; font-size: .8rem; }
   .citation summary { cursor: pointer; color: var(--muted); width: fit-content; padding: 6px 0; }
   .citation p { margin-top: 8px; padding: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow-wrap: anywhere; }
