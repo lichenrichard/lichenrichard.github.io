@@ -22,7 +22,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: 
     <script is:inline set:html={themeScript}></script>
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/favicon.svg?v=cl" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.svg?v=li" type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:title" content={title} />
@@ -57,7 +57,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: 
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="/" aria-label={`${site.name}, home`}><svg class="brand-mark" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M49 8H31A24 24 0 0 0 31 56H43V48H31A16 16 0 0 1 31 16H49ZM29 23H37V34H57V42H29Z" /></svg><span>{site.name}<small>Human-centred computing</small></span></a>
+        <a class="brand" href="/" aria-label={`${site.name}, home`}><span>{site.name}<small>Human-centred computing</small></span></a>
         <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="navigation" hidden><span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true">☰</span></button>
         <nav id="navigation" aria-label="Main navigation">
           {nav.map(([label, href]) => <a href={href} aria-current={active === label ? 'page' : undefined}>{label}</a>)}

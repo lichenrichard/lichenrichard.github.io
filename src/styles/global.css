@@ -100,7 +100,6 @@
   .nav-appearance { display: flex; }
   .brand { display: flex; align-items: center; gap: 13px; font-family: var(--font-heading); font-size: 1.1rem; font-weight: 400; text-decoration: none; line-height: 1.4; }
   .brand small { display: block; font-family: var(--font-body); font-size: .7rem; font-weight: 400; color: var(--muted); margin-top: 3px; }
-  .brand-mark { width: 40px; height: 40px; flex: 0 0 40px; color: var(--accent); }
   #navigation { display: flex; align-items: center; gap: 28px; }
   #navigation a { font-size: .85rem; text-decoration: none; padding-block: 12px; }
   #navigation [aria-current="page"] { color: var(--accent); font-weight: 650; }
@@ -283,7 +282,6 @@
     .nav-toggle-icon { margin-left: 0; }
     .brand { font-size: .9rem; gap: 10px; }
     .brand small { font-size: .65rem; }
-    .brand-mark { width: 34px; height: 34px; flex-basis: 34px; }
     .hero { grid-template-columns: 1fr; gap: 32px; padding-block: 38px 30px; }
     .hero h1 { font-size: clamp(2.8rem, 10.6vw, 4rem); max-width: 500px; }
     .hero .eyebrow { font-size: .64rem; margin-bottom: 20px; }
