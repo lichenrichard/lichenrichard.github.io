@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import themeScript from '../scripts/theme.js?raw';
+import { site } from '../data/site';
+interface Props { title: string; description: string; active?: string; image?: string; noindex?: boolean; }
+const { title, description, active = '', image = '/images/social-preview.png', noindex = false } = Astro.props;
+const route = Astro.url.pathname.replace(/\/$/, '');
+const path = !route || route === '/index.html' ? '/' : route.endsWith('.html') ? route : `${route}.html`;
+const canonical = new URL(path, site.url).href;
+const nav = [['About', '/about.html'], ['Research', '/project.html'], ['Publications', '/publication.html'], ['Teaching', '/teaching.html']];
+const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: site.url, mainEntity: { '@type': 'Person', '@id': `${site.url}/#person`, name: site.name, alternateName: [site.formalName, site.chineseName], jobTitle: site.role, url: site.url, image: `${site.url}/images/avatar-2.webp`, affiliation: { '@type': 'CollegeOrUniversity', name: site.university }, sameAs: [site.scholar, site.linkedin] } };
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#faf9f7" />
+    <script is:inline set:html={themeScript}></script>
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg?v=cl" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, site.url).href} />
+    <meta property="og:image:alt" content={`${site.name}, human-centred computing researcher`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    {path === '/' && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
+    <slot name="head" />
+    <script is:inline define:vars={{ analyticsId: site.analyticsId }}>
+      // Keep the existing analytics property, and never report local previews.
+      if (location.hostname === 'chenli.me' && analyticsId) {
+        window.addEventListener('load', () => {
+          const loadAnalytics = () => {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { window.dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', analyticsId);
+            const script = document.createElement('script');
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(analyticsId);
+            document.head.appendChild(script);
+          };
+          if ('requestIdleCallback' in window) window.requestIdleCallback(loadAnalytics, { timeout: 3000 });
+          else window.setTimeout(loadAnalytics, 1500);
+        }, { once: true });
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label={`${site.name}, home`}><svg class="brand-mark" width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M49 8H31A24 24 0 0 0 31 56H43V48H31A16 16 0 0 1 31 16H49ZM29 23H37V34H57V42H29Z" /></svg><span>{site.name}<small>Human-centred computing</small></span></a>
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="navigation" hidden><span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true">☰</span></button>
+        <nav id="navigation" aria-label="Main navigation">
+          {nav.map(([label, href]) => <a href={href} aria-current={active === label ? 'page' : undefined}>{label}</a>)}
+          <a class="nav-contact" href="/#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          <div class="nav-appearance"><ThemeToggle /></div>
+        </nav>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-top"><a class="brand" href="/">{site.name} {path !== '/' && <span class="chinese-name" lang="zh">李晨</span>}</a><p>Human-centred computing researcher</p><a class="text-link" href="#main">Back to top ↑</a></div>
+      <div class="container footer-bottom"><span>© <span data-copyright-year>{new Intl.DateTimeFormat('en', { year: 'numeric', timeZone: 'Asia/Hong_Kong' }).format(new Date())}</span> {site.name} · Hong Kong</span><div><a href={site.scholar}>Google Scholar ↗</a><a href={site.linkedin}>LinkedIn ↗</a><a href={`mailto:${site.email}`}>Email ↗</a></div></div>
+    </footer>
+    <script>
+      import '../scripts/copyright-year.js';
+      const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
+      const navigation = document.querySelector<HTMLElement>('#navigation');
+      if (toggle && navigation) {
+        toggle.hidden = false;
+        navigation.classList.add('enhanced');
+        const close = () => { toggle.setAttribute('aria-expanded', 'false'); navigation.classList.remove('is-open'); };
+        toggle.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') !== 'true'; toggle.setAttribute('aria-expanded', String(open)); navigation.classList.toggle('is-open', open); });
+        navigation.addEventListener('click', (event) => { if ((event.target as Element).closest('a')) close(); });
+        document.addEventListener('keydown', event => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { close(); toggle.focus(); } });
+      }
+    </script>
+  </body>
+</html>

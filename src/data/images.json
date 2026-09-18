@@ -1,0 +1,234 @@
+{
+  "avatar-2": {
+    "src": "/images/avatar-2.webp",
+    "width": 640,
+    "height": 800,
+    "smallSrc": "/images/avatar-2-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 600
+  },
+  "avatar": {
+    "src": "/images/avatar.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/avatar-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "comes-auditorium": {
+    "src": "/images/comes-auditorium.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/comes-auditorium-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "comes-campus": {
+    "src": "/images/comes-campus.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/comes-campus-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "comes": {
+    "src": "/images/comes.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/comes-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "cosi-ar": {
+    "src": "/images/cosi-ar.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/cosi-ar-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "cosi-cave": {
+    "src": "/images/cosi-cave.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/cosi-cave-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "cosi": {
+    "src": "/images/cosi.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/cosi-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "esaias-sports1": {
+    "src": "/images/esaias-sports1.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/esaias-sports1-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "esaias-sports2": {
+    "src": "/images/esaias-sports2.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/esaias-sports2-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "esaias": {
+    "src": "/images/esaias.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/esaias-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "hkchvr-ot": {
+    "src": "/images/hkchvr-ot.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/hkchvr-ot-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "hkchvr-reception": {
+    "src": "/images/hkchvr-reception.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/hkchvr-reception-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "hkchvr": {
+    "src": "/images/hkchvr.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/hkchvr-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "inspal-ms": {
+    "src": "/images/inspal-ms.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/inspal-ms-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "inspal": {
+    "src": "/images/inspal.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/inspal-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "mooc": {
+    "src": "/images/mooc.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/mooc-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "rcvr-scenes": {
+    "src": "/images/rcvr-scenes.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/rcvr-scenes-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "rcvr-views": {
+    "src": "/images/rcvr-views.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/rcvr-views-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "rcvr": {
+    "src": "/images/rcvr.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/rcvr-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "vhk-mmt": {
+    "src": "/images/vhk-mmt.webp",
+    "width": 788,
+    "height": 640,
+    "smallSrc": "/images/vhk-mmt-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 390
+  },
+  "vhk-team": {
+    "src": "/images/vhk-team.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/vhk-team-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "vpad-cave": {
+    "src": "/images/vpad-cave.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/vpad-cave-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "vpad-ctp": {
+    "src": "/images/vpad-ctp.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/vpad-ctp-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "vpad": {
+    "src": "/images/vpad.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/vpad-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "vpad2": {
+    "src": "/images/vpad2.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/vpad2-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  },
+  "vrexat-client": {
+    "src": "/images/vrexat-client.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/vrexat-client-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "vrexat-therapist": {
+    "src": "/images/vrexat-therapist.webp",
+    "width": 960,
+    "height": 640,
+    "smallSrc": "/images/vrexat-therapist-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 320
+  },
+  "vrexat": {
+    "src": "/images/vrexat.webp",
+    "width": 1200,
+    "height": 720,
+    "smallSrc": "/images/vrexat-480.webp",
+    "smallWidth": 480,
+    "smallHeight": 288
+  }
+}

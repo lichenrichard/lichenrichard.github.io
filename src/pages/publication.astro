@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PublicationRow from '../components/PublicationRow.astro';
+import publications from '../data/publications.json';
+import tags from '../data/publication-tags.json';
+import awards from '../data/publication-awards.json';
+import { site } from '../data/site';
+const sorted = [...publications].sort((a,b) => b.year - a.year || a.title.localeCompare(b.title));
+const years = [...new Set(publications.map(p => p.year))].sort((a,b) => b-a);
+---
+<Layout title="Publications | Chen Li" description="Browse 80 publications by Chen Li and collaborators. Filter research in VR/AR, human–AI interaction, education, accessibility, and wellbeing by topic, year, and type." active="Publications">
+  <div class="container"><header class="page-header"><span class="eyebrow">Research / Publications</span><h1>A growing body<br />of questions & ideas.</h1><p class="lead">Research on the relationships between people and technology. Explore by topic, find a paper, or browse the full bibliography.</p><a class="text-link" style="margin-top:20px" href={site.scholar}>View Google Scholar profile ↗</a></header>
+  <section class="section" aria-labelledby="explorer-title">
+    <h2 id="explorer-title" class="sr-only">Publication explorer</h2>
+    <form id="publication-filters" class="filter-panel" hidden aria-label="Filter publications">
+      <div class="filter-top"><label for="publication-search">Search publications<input type="search" id="publication-search" name="q" placeholder="Title, author, or keyword…" autocomplete="off" /></label><label>Year<select name="year"><option value="">All years</option>{years.map(year => <option value={year}>{year}</option>)}</select></label><label>Publication type<select name="type"><option value="">All types</option><option value="journal">Journal articles</option><option value="conference">Conference papers</option><option value="chapter">Book chapters</option><option value="book">Edited books</option><option value="editorial">Editorials</option></select></label><label>Sort by<select name="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Title A–Z</option></select></label></div>
+      <fieldset class="topic-filters"><legend>Research topics · matches any selected topic</legend><div class="topic-controls">{tags.map(tag => <label><input type="checkbox" name="topic" value={tag.id} />{tag.label}</label>)}</div></fieldset>
+      <div class="filter-status"><span id="result-count" role="status" aria-live="polite" aria-atomic="true">Showing {publications.length} publications</span><button type="reset" class="clear-filters">Clear filters</button></div>
+    </form>
+    <noscript><p class="notice">The complete bibliography is shown below. Enable JavaScript to search, filter, and sort.</p></noscript>
+    <div id="publication-list">{sorted.map(publication => <PublicationRow publication={publication} />)}</div>
+    <div id="empty-results" class="empty-state" hidden><h2>No matching publications</h2><p>Try a different keyword or remove a filter.</p><button class="clear-filters" data-clear-filters type="button">Clear all filters</button></div>
+  </section>
+  <section class="section" aria-labelledby="awards-title"><span class="eyebrow">Recognition</span><h2 id="awards-title">Publication awards</h2><ul class="award-list">{awards.map(award => <li>{award.url ? <a href={award.url}>{award.title}</a> : award.title}</li>)}</ul></section></div>
+</Layout>
+<script>import '../scripts/publications';</script>

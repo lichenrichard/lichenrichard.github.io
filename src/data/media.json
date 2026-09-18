@@ -1,0 +1,80 @@
+[
+  {
+    "id": "esaias-demo",
+    "title": "Inside ESAIAS",
+    "type": "video",
+    "provider": "YouTube",
+    "url": "https://youtu.be/bTV6_ycRiVg",
+    "videoId": "bTV6_ycRiVg",
+    "projectId": "esaias",
+    "image": "/images/esaias-sports1.webp",
+    "description": "A demonstration of ESAIAS, a virtual school community for practising social and emotional skills with generative AI agents."
+  },
+  {
+    "id": "comes-demo",
+    "title": "Explore the COMES virtual campus",
+    "type": "video",
+    "provider": "YouTube",
+    "url": "https://youtu.be/SU4qGSOmku0",
+    "videoId": "SU4qGSOmku0",
+    "projectId": "comes",
+    "image": "/images/comes-campus.webp",
+    "description": "A demonstration of the Collaborative Online Multidisciplinary Educational Space and its virtual learning environment."
+  },
+  {
+    "id": "vrexat-demo",
+    "title": "Making art together in virtual reality",
+    "type": "video",
+    "provider": "YouTube",
+    "url": "https://youtu.be/2sihZeLLhZA",
+    "videoId": "2sihZeLLhZA",
+    "projectId": "vrexat",
+    "image": "/images/vrexat-client.webp",
+    "description": "A demonstration of remote expressive arts therapy in a collaborative virtual environment."
+  },
+  {
+    "id": "hkchvr-healthpedia",
+    "title": "VR before surgery · Healthpedia 精靈一點",
+    "type": "video",
+    "provider": "RTHK",
+    "url": "https://www.youtube.com/watch?v=MSVIWaI0ZNM",
+    "videoId": "MSVIWaI0ZNM",
+    "projectId": "hkchvr",
+    "image": "/images/hkchvr-reception.webp",
+    "language": "Cantonese",
+    "description": "An RTHK Healthpedia conversation about virtual reality for reducing children’s perioperative anxiety."
+  },
+  {
+    "id": "hkchvr-government-and-you",
+    "title": "VR before surgery · Government and You 政正關你事",
+    "type": "video",
+    "provider": "RTHK",
+    "url": "https://www.youtube.com/watch?v=xguZfXdScv4",
+    "videoId": "xguZfXdScv4",
+    "projectId": "hkchvr",
+    "image": "/images/hkchvr-ot.webp",
+    "language": "Cantonese",
+    "description": "An RTHK Government and You conversation about preparing children for surgery with virtual reality."
+  },
+  {
+    "id": "hkchvr-hospital-story",
+    "title": "Virtual reality at Hong Kong Children’s Hospital",
+    "type": "article",
+    "provider": "Hong Kong Children’s Hospital",
+    "url": "https://www.ha.org.hk/hkch/Hospital/MediaStories/Issue27_Story05/",
+    "projectId": "hkchvr",
+    "image": "/images/hkchvr-reception.webp",
+    "description": "The hospital’s media story about the project using immersive virtual reality to help prepare children for surgery."
+  },
+  {
+    "id": "hkchvr-mingpao",
+    "title": "Media coverage of VR for perioperative anxiety",
+    "type": "article",
+    "provider": "Ming Pao",
+    "url": "https://tinyurl.com/yuppc8sr",
+    "projectId": "hkchvr",
+    "image": "/images/hkchvr-ot.webp",
+    "language": "Chinese",
+    "description": "A Ming Pao report linked from the project on reducing children’s perioperative anxiety with virtual reality."
+  }
+]

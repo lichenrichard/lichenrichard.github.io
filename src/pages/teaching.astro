@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import courses from '../data/teaching.json';
+const sections = [
+  { id: 'current-courses', title: 'Current courses', status: 'active', description: 'Teaching across computing and the applied social sciences at The Hong Kong Polytechnic University.' },
+  { id: 'past-courses', title: 'Past courses', status: 'archived', description: 'Previous teaching in human–computer interaction, mixed reality, game development, and software engineering.' },
+];
+---
+<Layout title="Teaching | Chen Li" description="Courses taught by Chen Li in extended reality, educational technology, human–computer interaction, and psychosocial interventions." active="Teaching">
+  <div class="container">
+    <header class="page-header">
+      <p class="eyebrow">Teaching</p>
+      <h1>Learning through<br />new possibilities.</h1>
+      <p class="lead">Connecting technology, design, and human experience in the classroom.</p>
+    </header>
+    {sections.map(section => (
+      <section class="section" aria-labelledby={section.id}>
+        <div class="section-heading">
+          <div>
+            <h2 id={section.id}>{section.title}</h2>
+            <p>{section.description}</p>
+          </div>
+          <span class="tag">{courses.filter(course => course.status === section.status).length} courses</span>
+        </div>
+        <ul class="course-list" role="list">
+          {courses.filter(course => course.status === section.status).map(course => (
+            <li class="course-row">
+              <span class="course-code">{course.code}</span>
+              <div class="course-details">
+                <h3>{course.title}</h3>
+                <p>{course.department}<br />{course.institution}</p>
+                {course.period && <p class="course-period">{course.period}</p>}
+              </div>
+              {course.url && <a class="text-link course-syllabus" href={course.url} aria-label={`View ${course.code} syllabus (PDF)`}>Syllabus <span aria-hidden="true">↗</span><span class="course-format">PDF</span></a>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .course-list { list-style: none; padding: 0; margin: 0; }
+  .course-code { font-size: .8rem; font-weight: 750; letter-spacing: .03em; }
+  .course-details h3 { margin: 0 0 .55rem; font-size: 1.2rem; }
+  .course-details p { margin: 0; font-size: .95rem; }
+  .course-details .course-period { margin-top: .65rem; font-size: .85rem; }
+  .course-syllabus { display: inline-flex; align-items: center; flex-wrap: wrap; gap: .4rem; white-space: nowrap; }
+  .course-format { font-size: .65rem; opacity: .7; }
+</style>

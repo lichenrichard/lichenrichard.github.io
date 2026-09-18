@@ -1,0 +1,7 @@
+---
+import images from '../data/images.json';
+const { src, alt, eager = false, class: className = '', sizes = '(max-width: 650px) 100vw, 50vw' } = Astro.props;
+const key = src.split('/').pop().replace(/\.webp$/, '');
+const info = (images as Record<string, any>)[key];
+---
+<img class={className} src={src} alt={alt} width={info?.width || 800} height={info?.height || 533} srcset={info?.smallSrc ? `${info.smallSrc} ${info.smallWidth}w, ${src} ${info.width}w` : undefined} sizes={sizes} loading={eager ? 'eager' : 'lazy'} decoding="async" fetchpriority={eager ? 'high' : 'auto'} />

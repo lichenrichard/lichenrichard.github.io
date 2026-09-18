@@ -1,0 +1,26 @@
+[
+  {
+    "id": "vr-ar",
+    "label": "VR & AR"
+  },
+  {
+    "id": "human-ai",
+    "label": "Human–AI interaction"
+  },
+  {
+    "id": "education",
+    "label": "Learning & education"
+  },
+  {
+    "id": "wellbeing",
+    "label": "Health & wellbeing"
+  },
+  {
+    "id": "accessibility",
+    "label": "Accessibility & neurodiversity"
+  },
+  {
+    "id": "social",
+    "label": "Social & collaborative computing"
+  }
+]

@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Photo from '../components/Photo.astro';
+import MediaCard from '../components/MediaCard.astro';
+import PublicationRow from '../components/PublicationRow.astro';
+import projects from '../data/projects.json';
+import publications from '../data/publications.json';
+import media from '../data/media.json';
+import topics from '../data/publication-tags.json';
+export function getStaticPaths() { return projects.map(project => ({ params: { project: project.id }, props: { project } })); }
+const { project } = Astro.props;
+const projectMedia = media.filter(item => item.projectId === project.id);
+const related = publications.filter(p => p.projectIds.includes(project.id)).sort((a,b) => b.year-a.year);
+const labels = Object.fromEntries(topics.map(t => [t.id,t.label]));
+---
+<Layout title={`${project.title} | Chen Li`} description={project.summary} active="Research">
+  <div class="container"><header class="page-header"><a class="text-link small" href="/project.html">← All research projects</a><span class="eyebrow" style="margin-top:28px">{project.period.replace('NOW','Present')} / Research project</span><h1>{project.title}</h1><p class="lead">{project.summary}</p><div class="tags" style="margin-top:22px">{project.tags.map(tag => <a class="tag" href={`/publication.html?topic=${tag}`}>{labels[tag]}</a>)}</div></header>
+  <section class="section detail-layout" aria-label="Project overview"><div class="prose"><h2 style="margin-top:0">{project.fullTitle}</h2><Fragment set:html={project.descriptionHtml} /></div><aside class="detail-sidebar" aria-label="Project resources"><div><h2>Partners & support</h2>{project.funders.map(funder => <a href={funder.url}>{funder.label} ↗</a>)}</div>{project.links.length > 0 && <div><h2>Explore further</h2>{project.links.map(link => <a href={link.url}>{link.label} ↗</a>)}</div>}{project.awards.length > 0 && <div><h2>Recognition</h2>{project.awards.map(award => <a href={award.url}>{award.label} ↗</a>)}</div>}</aside></section>
+  {projectMedia.length > 0 && <section class="section" aria-labelledby="project-media-title"><div class="section-heading"><h2 id="project-media-title">See the project in action</h2></div><div class="media-grid">{projectMedia.map(item => <MediaCard item={item} />)}</div></section>}
+  {project.images.length > 0 && <section class="section" aria-labelledby="gallery-title"><div class="section-heading"><h2 id="gallery-title">A closer look</h2></div><div class="gallery">{project.images.map(img => <figure><a href={img.src} aria-label={`Open full image: ${img.alt}`}><Photo src={img.src} alt={img.alt} /></a><figcaption>{img.caption}</figcaption></figure>)}</div></section>}
+  {related.length > 0 && <section class="section" aria-labelledby="related-title"><div class="section-heading"><h2 id="related-title">Related publications</h2><a class="text-link" href="/publication.html">Full bibliography ↗</a></div>{related.map(publication => <PublicationRow publication={publication} />)}</section>}
+  </div>
+</Layout>

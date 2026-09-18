@@ -1,0 +1,8 @@
+---
+import Photo from './Photo.astro';
+const { project, index = 0 } = Astro.props;
+---
+<article class="project-card">
+  <a class="project-image" href={`/${project.id}.html`} tabindex="-1" aria-hidden="true"><Photo src={project.image} alt="" sizes="(max-width: 650px) 100vw, (max-width: 1000px) 50vw, 33vw" /><span class="image-arrow" aria-hidden="true">↗</span></a>
+  <div class="project-card-content"><div class="project-meta"><span>{String(index + 1).padStart(2, '0')} / RESEARCH</span><span>{project.period}</span></div><h3><a href={`/${project.id}.html`}>{project.title}</a></h3><p>{project.summary}</p></div>
+</article>

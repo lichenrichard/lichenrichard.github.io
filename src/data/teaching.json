@@ -1,0 +1,101 @@
+[
+  {
+    "code": "COMP4424",
+    "title": "Extended Reality: Theory and Practice",
+    "status": "active",
+    "department": "Department of Computing",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": null,
+    "url": "https://www.polyu.edu.hk/comp/docdrive/ug/subject/COMP4424.pdf"
+  },
+  {
+    "code": "COMP5424",
+    "title": "Extended Reality",
+    "status": "active",
+    "department": "Department of Computing",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": null,
+    "url": "https://www.polyu.edu.hk/comp/docdrive/tpg/subject/COMP5424.pdf"
+  },
+  {
+    "code": "APSS1D40",
+    "title": "Innovations in Educational Technology",
+    "status": "archived",
+    "department": "Department of Applied Social Sciences",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": null,
+    "url": "https://www.polyu.edu.hk/apss/docdrive/subject/current/APSS1D40_Innovations%20in%20Educational%20Technology.pdf"
+  },
+  {
+    "code": "APSS1L01",
+    "title": "Tomorrow’s Leaders",
+    "status": "active",
+    "department": "Department of Applied Social Sciences",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": null,
+    "url": "https://www.polyu.edu.hk/cmi/docdrive/Subject_Syllabus/2026_27/ServiceSubject/APSS1L01.pdf"
+  },
+  {
+    "code": "APSS5794",
+    "title": "Information & Communication Technology for Psychosocial Interventions",
+    "status": "active",
+    "department": "Department of Applied Social Sciences",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": null,
+    "url": "https://www.polyu.edu.hk/apss/docdrive/subject/current/APSS5794%20Information%20&%20Communication%20Technology%20for%20Psychosocial%20Interventions_2024.pdf"
+  },
+  {
+    "code": "COMP3423",
+    "title": "Human Computer Interaction",
+    "status": "archived",
+    "department": "Department of Computing",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": "Semester Two 2020/21 & Semester One 2021/22",
+    "url": "https://www.polyu.edu.hk/comp/docdrive/ug/subject/COMP3423.pdf"
+  },
+  {
+    "code": "COMP4122",
+    "title": "Game Design and Development",
+    "status": "archived",
+    "department": "Department of Computing",
+    "institution": "The Hong Kong Polytechnic University",
+    "period": "Semester One 2021/22",
+    "url": "https://www.polyu.edu.hk/comp/docdrive/ug/subject/COMP4122.pdf"
+  },
+  {
+    "code": "DATA475",
+    "title": "Special Topic: Mixed Reality",
+    "status": "archived",
+    "department": "Human Interface Technology Laboratory & Department of Mathematics and Statistics",
+    "institution": "University of Canterbury",
+    "period": "Semester One 2020",
+    "url": null
+  },
+  {
+    "code": "PROD121",
+    "title": "The Game Development Process",
+    "status": "archived",
+    "department": "School of Product Design",
+    "institution": "University of Canterbury",
+    "period": "Semester One 2020",
+    "url": null
+  },
+  {
+    "code": "SC475",
+    "title": "Artificial Intelligence, Virtual Reality and Future Technologies",
+    "status": "archived",
+    "department": "School of Professional and Continuing Education",
+    "institution": "The University of Hong Kong",
+    "period": null,
+    "url": null
+  },
+  {
+    "code": "CS3347",
+    "title": "Software Engineering Principles and Practice",
+    "status": "archived",
+    "department": "Department of Computer Science & School of Creative Media",
+    "institution": "City University of Hong Kong",
+    "period": null,
+    "url": null
+  }
+]

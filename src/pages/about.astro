@@ -1,0 +1,80 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { site } from '../data/site';
+---
+<Layout title="About | Chen Li" description="Biography, research, education, and professional service of Chen Li, Assistant Professor at The Hong Kong Polytechnic University." active="About">
+  <div class="container">
+    <header class="page-header about-header">
+      <div>
+        <p class="eyebrow">About</p>
+        <h1>{site.name}<br /><span class="about-chinese" lang="zh">李晨</span></h1>
+        <p class="lead">Assistant Professor<br />The Hong Kong Polytechnic University</p>
+        <div class="about-links">
+          <a class="text-link" href={site.scholar}>Google Scholar <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href={site.linkedin}>LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="about-content">
+      <section class="section prose" aria-labelledby="biography">
+        <p class="eyebrow">Biography</p>
+        <h2 id="biography">Technology in support of people.</h2>
+        <p>{site.name} (李晨) is an assistant professor affiliated with the Department of Applied Social Sciences and the Department of Computing at The Hong Kong Polytechnic University.</p>
+        <p>As a human-centred computing researcher, Chen Li’s research interest is in collaborating with talents with various backgrounds to design new technology-assisted solutions for supporting people in their daily lives.</p>
+      </section>
+
+      <section class="section prose" aria-labelledby="education">
+        <p class="eyebrow">Background</p>
+        <h2 id="education">Education &amp; appointments</h2>
+        <h3>Education</h3>
+        <ul>
+          <li><strong>PhD</strong>, City University of Hong Kong</li>
+          <li><strong>MSc (Distinction) in Computer Science</strong>, City University of Hong Kong</li>
+          <li><strong>BSc in Computer Science and Technology</strong>, Nanjing University</li>
+        </ul>
+        <h3>Appointments</h3>
+        <ul>
+          <li><strong>Assistant Professor</strong>, The Hong Kong Polytechnic University (current)</li>
+          <li><strong>Senior Research Associate</strong>, <a href="http://aimtech.cityu.edu.hk/">Centre for Innovative Applications of Internet and Multimedia Technologies (AIMtech Centre)</a>, City University of Hong Kong (previous)</li>
+          <li><strong>Postdoctoral Research Fellow</strong>, <a href="https://www.hitlabnz.org/">Interface Technology Lab New Zealand (HIT Lab NZ)</a>, University of Canterbury (previous)</li>
+        </ul>
+      </section>
+
+      <section class="section prose" aria-labelledby="research-impact">
+        <p class="eyebrow">Research &amp; impact</p>
+        <h2 id="research-impact">From research to everyday settings</h2>
+        <p>His research outcomes related to the use of virtual reality for children with special educational needs have been adopted by mainstream and special schools in Hong Kong. Besides education, his research outcomes in extended reality and natural user interfaces have been applied in other sectors, including digital entertainment, healthcare, aerospace engineering, and advanced manufacturing.</p>
+        <p>Academically, Chen Li’s research works were published in international journals such as <cite>Computers &amp; Education</cite> (C&amp;E), <cite>IEEE Transactions on Visualization and Computer Graphics</cite> (TVCG), <cite>International Journal of Human-Computer Studies</cite> (IJHCS), <cite>Computers in Human Behavior</cite> (CHB), and <cite>IEEE Transactions on Learning Technologies</cite> (TLT), as well as conference proceedings such as the proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces (VR), the International Symposium on Mixed and Augmented Reality (ISMAR), and ACM CHI Conference on Human Factors in Computing Systems (CHI).</p>
+        <div class="about-links">
+          <a class="text-link" href="/project.html">Explore the research <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="/publication.html">Browse publications <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="section prose" aria-labelledby="service">
+        <p class="eyebrow">Academic community</p>
+        <h2 id="service">Professional service</h2>
+        <p>Prof. {site.name} serves in the following roles:</p>
+        <ul class="service-list">
+          <li>President, <a href="https://hksmic.org.hk/">Hong Kong Society for Multimedia and Image Computing (HKSMIC)</a></li>
+          <li>Chairman, <a href="https://ihlsociety.org/">International Hybrid Learning Society (IHLS)</a></li>
+          <li>Governing board member, <a href="https://iapr.org/">International Association for Pattern Recognition (IAPR)</a></li>
+          <li>Board member, <a href="https://sicet.org/">Society of International Chinese in Educational Technology (SICET)</a></li>
+          <li>Editorial board member, <a href="https://onlinelibrary.wiley.com/journal/13652729">Journal of Computer Assisted Learning</a></li>
+          <li>Editorial board member, <a href="https://www.journals.elsevier.com/computers-and-education-x-reality">Computers &amp; Education: X Reality</a></li>
+        </ul>
+      </section>
+
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .about-chinese { font-size: .65em; letter-spacing: .08em; }
+  .about-content .prose { max-width: none; }
+  .about-content h2 { margin-top: 0; }
+  .about-links { display: flex; flex-wrap: wrap; gap: 1rem 1.75rem; margin-top: 1.5rem; }
+  .service-list { padding-left: 1.2em; }
+  .service-list li + li { margin-top: .9rem; }
+</style>
