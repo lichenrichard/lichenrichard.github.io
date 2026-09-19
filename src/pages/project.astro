@@ -3,6 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import projects from '../data/projects.json';
 ---
-<Layout title="Research Projects | Chen Li" description="Explore Chen Li’s research in extended reality, human–AI interaction, inclusive education, and health and wellbeing." active="Research">
+<Layout title="Research Projects | Chen 'Richard' Li" description="Explore Chen Li’s research in extended reality, human–AI interaction, inclusive education, and health and wellbeing." active="Research">
   <div class="container"><header class="page-header"><span class="eyebrow">Research / Projects</span><h1>From possibilities<br />to practice.</h1><p class="lead">Working with educators, healthcare professionals, and communities to explore what human-centred technology can make possible.</p></header><section class="section" aria-labelledby="all-projects"><h2 id="all-projects" class="sr-only">All research projects</h2><div class="project-grid">{projects.map((project,index) => <ProjectCard project={project} index={index} />)}</div></section></div>
 </Layout>
