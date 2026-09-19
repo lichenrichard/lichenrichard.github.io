@@ -1,4 +1,5 @@
 ---
+import ArrowUpRight from '../components/ArrowUpRight.astro';
 import Layout from '../layouts/Layout.astro';
 import { site } from '../data/site';
 ---
@@ -10,8 +11,8 @@ import { site } from '../data/site';
         <h1>{site.name}<br /><span class="about-chinese" lang="zh">李晨</span></h1>
         <p class="lead">Assistant Professor<br />The Hong Kong Polytechnic University</p>
         <div class="about-links">
-          <a class="text-link" href={site.scholar}>Google Scholar <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href={site.linkedin}>LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href={site.scholar}>Google Scholar <ArrowUpRight /></a>
+          <a class="text-link" href={site.linkedin}>LinkedIn <ArrowUpRight /></a>
         </div>
       </div>
     </header>

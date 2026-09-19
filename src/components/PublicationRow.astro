@@ -1,4 +1,5 @@
 ---
+import ArrowUpRight from './ArrowUpRight.astro';
 import topics from '../data/publication-tags.json';
 const { publication: p, compact = false } = Astro.props;
 const labels = Object.fromEntries(topics.map(t => [t.id, t.label]));
@@ -14,7 +15,7 @@ const pdfLabel = pdfDetails.length ? `PDF (${pdfDetails.join(', ')})` : 'PDF';
     <p class="publication-authors">{Array.isArray(p.authors) ? p.authors.join(', ') : p.authors}</p>
     <p class="publication-venue">{p.venue}</p>
     {p.publicationNote && <p class="publication-authors">{p.publicationNote}</p>}
-    <div class="publication-bottom"><div class="tags">{p.tags.map((tag: string) => <a href={`/publication.html?topic=${tag}`} class="tag">{labels[tag] || tag}</a>)}</div><div class="publication-links">{p.doi && <a href={p.doi}>DOI ↗</a>}{pdfUrl && <a href={pdfUrl} type={p.pdf ? 'application/pdf' : undefined} aria-label={`${pdfLabel}: ${p.title}`}>{pdfLabel} ↗</a>}{p.projectIds?.length > 0 && <a href={`/${p.projectIds[0]}.html`}>Project ↗</a>}</div></div>
+    <div class="publication-bottom"><div class="tags">{p.tags.map((tag: string) => <a href={`/publication.html?topic=${tag}`} class="tag">{labels[tag] || tag}</a>)}</div><div class="publication-links">{p.doi && <a href={p.doi}>DOI <ArrowUpRight /></a>}{pdfUrl && <a href={pdfUrl} type={p.pdf ? 'application/pdf' : undefined} aria-label={`${pdfLabel}: ${p.title}`}>{pdfLabel} <ArrowUpRight /></a>}{p.projectIds?.length > 0 && <a href={`/${p.projectIds[0]}.html`}>Project <ArrowUpRight /></a>}</div></div>
     {!compact && <details class="citation"><summary>Cite this work (APA)</summary><p>{p.citation}</p><button class="copy-citation" type="button" hidden>Copy citation</button><span class="copy-status" role="status"></span></details>}
   </div>
 </article>
