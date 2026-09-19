@@ -1,5 +1,4 @@
 ---
-import ArrowUpRight from '../components/ArrowUpRight.astro';
 import Layout from '../layouts/Layout.astro';
 import courses from '../data/teaching.json';
 const sections = [
@@ -32,7 +31,7 @@ const sections = [
                 <p>{course.department}<br />{course.institution}</p>
                 {course.period && <p class="course-period">{course.period}</p>}
               </div>
-              {course.url && <a class="text-link course-syllabus" href={course.url} aria-label={`View ${course.code} syllabus (PDF)`}>Syllabus <ArrowUpRight /><span class="course-format">PDF</span></a>}
+              {course.url && <a class="text-link course-syllabus" href={course.url} aria-label={`View ${course.code} syllabus (PDF)`}>Syllabus <span aria-hidden="true">→</span><span class="course-format">PDF</span></a>}
             </li>
           ))}
         </ul>

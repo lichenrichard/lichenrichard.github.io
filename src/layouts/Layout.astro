@@ -1,5 +1,4 @@
 ---
-import ArrowUpRight from '../components/ArrowUpRight.astro';
 import '../styles/global.css';
 import ThemeToggle from '../components/ThemeToggle.astro';
 import themeScript from '../scripts/theme.js?raw';
@@ -62,7 +61,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: 
         <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="navigation" hidden><span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true">☰</span></button>
         <nav id="navigation" aria-label="Main navigation">
           {nav.map(([label, href]) => <a href={href} aria-current={active === label ? 'page' : undefined}>{label}</a>)}
-          <a class="nav-contact" href="/#contact">Get in touch <ArrowUpRight /></a>
+          <a class="nav-contact" href="/#contact">Get in touch <span aria-hidden="true">→</span></a>
           <div class="nav-appearance"><ThemeToggle /></div>
         </nav>
       </div>
@@ -70,7 +69,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: 
     <main id="main" tabindex="-1"><slot /></main>
     <footer class="site-footer">
       <div class="container footer-top"><a class="brand" href="/">{site.name} {path !== '/' && <span class="chinese-name" lang="zh">李晨</span>}</a><p>Human-centred computing researcher</p><a class="text-link" href="#main">Back to top ↑</a></div>
-      <div class="container footer-bottom"><span>© <span data-copyright-year>{new Intl.DateTimeFormat('en', { year: 'numeric', timeZone: 'Asia/Hong_Kong' }).format(new Date())}</span> {site.name} · Hong Kong</span><div><a href={site.scholar}>Google Scholar <ArrowUpRight /></a><a href={site.linkedin}>LinkedIn <ArrowUpRight /></a><a href={`mailto:${site.email}`}>Email <ArrowUpRight /></a></div></div>
+      <div class="container footer-bottom"><span>© <span data-copyright-year>{new Intl.DateTimeFormat('en', { year: 'numeric', timeZone: 'Asia/Hong_Kong' }).format(new Date())}</span> {site.name} · Hong Kong</span><div><a href={site.scholar}>Google Scholar <span aria-hidden="true">→</span></a><a href={site.linkedin}>LinkedIn <span aria-hidden="true">→</span></a><a href={`mailto:${site.email}`}>Email <span aria-hidden="true">→</span></a></div></div>
     </footer>
     <script>
       import '../scripts/copyright-year.js';

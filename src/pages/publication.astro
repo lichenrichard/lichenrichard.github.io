@@ -1,5 +1,4 @@
 ---
-import ArrowUpRight from '../components/ArrowUpRight.astro';
 import Layout from '../layouts/Layout.astro';
 import PublicationRow from '../components/PublicationRow.astro';
 import publications from '../data/publications.json';
@@ -10,7 +9,7 @@ const sorted = [...publications].sort((a,b) => b.year - a.year || a.title.locale
 const years = [...new Set(publications.map(p => p.year))].sort((a,b) => b-a);
 ---
 <Layout title="Publications | Chen Li" description="Browse 80 publications by Chen Li and collaborators. Filter research in VR/AR, human–AI interaction, education, accessibility, and wellbeing by topic, year, and type." active="Publications">
-  <div class="container"><header class="page-header"><span class="eyebrow">Research / Publications</span><h1>A growing body<br />of questions & ideas.</h1><p class="lead">Research on the relationships between people and technology. Explore by topic, find a paper, or browse the full bibliography.</p><a class="text-link" style="margin-top:20px" href={site.scholar}>View Google Scholar profile <ArrowUpRight /></a></header>
+  <div class="container"><header class="page-header"><span class="eyebrow">Research / Publications</span><h1>A growing body<br />of questions & ideas.</h1><p class="lead">Research on the relationships between people and technology. Explore by topic, find a paper, or browse the full bibliography.</p><a class="text-link" style="margin-top:20px" href={site.scholar}>View Google Scholar profile <span aria-hidden="true">→</span></a></header>
   <section class="section" aria-labelledby="explorer-title">
     <h2 id="explorer-title" class="sr-only">Publication explorer</h2>
     <form id="publication-filters" class="filter-panel" hidden aria-label="Filter publications">
