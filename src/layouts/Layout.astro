@@ -61,7 +61,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: 
         <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="navigation" hidden><span class="nav-toggle-label">Menu</span><span class="nav-toggle-icon" aria-hidden="true">☰</span></button>
         <nav id="navigation" aria-label="Main navigation">
           {nav.map(([label, href]) => <a href={href} aria-current={active === label ? 'page' : undefined}>{label}</a>)}
-          <a class="nav-contact" href="/#contact">Get in touch <span aria-hidden="true">→</span></a>
+          <a class="nav-contact" href="/#contact">Get in touch</a>
           <div class="nav-appearance"><ThemeToggle /></div>
         </nav>
       </div>

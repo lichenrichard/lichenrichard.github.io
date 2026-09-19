@@ -7,7 +7,7 @@ const { item } = Astro.props;
     {item.videoId ? <div class="video-facade" data-video-id={item.videoId} data-video-title={item.title}>
       <Photo src={item.image} alt="" sizes="(max-width: 650px) 100vw, 50vw" />
       <a class="play-control" href={item.url} aria-label={`Watch ${item.title}`}><span class="play-icon" aria-hidden="true">▶</span><span>Watch video</span></a>
-    </div> : <a href={item.url} tabindex="-1" aria-hidden="true"><Photo src={item.image} alt="" sizes="(max-width: 650px) 100vw, 50vw" /><span class="article-label">IN THE NEWS <span aria-hidden="true">→</span></span></a>}
+    </div> : <a href={item.url} tabindex="-1" aria-hidden="true"><Photo src={item.image} alt="" sizes="(max-width: 650px) 100vw, 50vw" /><span class="article-label">IN THE NEWS</span></a>}
   </div>
   <div class="media-meta">{item.provider}{item.language && <><span aria-hidden="true"> / </span>{item.language}</>}</div>
   <h3><a href={item.url}>{item.title}</a></h3>
