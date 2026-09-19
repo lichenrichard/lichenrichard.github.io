@@ -55,6 +55,8 @@ The copyright year uses Hong Kong time. A small script in `src/scripts/copyright
 
 Page addresses use `.html`, including `about.html`, `publication.html`, `project.html`, `teaching.html`, and each project's detail page. Public images, PDFs, the favicon, and the custom-domain CNAME are under `public/`. Image dimensions and responsive variants are recorded in `src/data/images.json`; add new image records there when using the shared `Photo` component.
 
+`public/favicon.svg` is the master artwork. Pages use a matching 32px PNG with a 16/32/48px ICO fallback for browser tabs, plus a 180px `apple-touch-icon.png` for Apple bookmark/Home Screen icons. When changing the artwork, regenerate these copies and update the icon URL version in `src/layouts/Layout.astro`.
+
 ## Validation
 
 `pnpm check` builds the site and runs Node's built-in test runner. The checks cover:
