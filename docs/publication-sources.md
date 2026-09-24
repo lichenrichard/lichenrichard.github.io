@@ -6,6 +6,12 @@ Some providers block automated file requests. For those links, the publisher dow
 
 ## Metadata updates
 
+### "When I see Jodie, I feel relaxed": Examining the Impact of a Virtual Supporter in Remote Psychotherapy
+
+Added on 24 September 2026. ACM's Crossref deposit confirms the title, six authors in order, journal article type, volume 10, issue 6, and pages 1–32. Published online on 23 September 2026; the issue is dated 31 October 2026. The deposit does not supply an article number, so the citation uses its registered page range. The published PDF URL comes directly from the publisher's version-of-record link in Crossref. ACM blocks automated requests with HTTP 403, so the PDF bytes could not be independently checked. The author-uploaded arXiv preprint independently confirms the title and author order.
+
+Sources: [ACM article](https://dl.acm.org/doi/10.1145/3817039), [ACM metadata in Crossref](https://api.crossref.org/works/10.1145/3817039), [arXiv preprint](https://arxiv.org/abs/2604.16003).
+
 ### Bridging AI Prompting and Design Thinking: Behavioral Patterns and Pedagogical Insights from a Design Workshop
 
 Published online on 27 June 2026. The final proceedings citation uses 2027, confirmed by Springer’s citation export, Crossref’s print date, and the published paper. The chapter appears in Part V, pages 411–420, edited by Emmanuel G. Blanchard, Guanliang Chen, Min Chi, and Seiji Isotani. Chen Richard Li’s ResearchGate upload provides public full text; the site links to its reader/download page.
@@ -82,6 +88,7 @@ Sources: [Springer chapter](https://link.springer.com/chapter/10.1007/978-3-319-
 
 | Publication | Version | Link | Verification source |
 | --- | --- | --- | --- |
+| "When I see Jodie, I feel relaxed": Examining the Impact of a Virtual Supporter in Remote Psychotherapy | published | [PDF](https://dl.acm.org/doi/pdf/10.1145/3817039) | [Publisher-deposited link](https://api.crossref.org/works/10.1145/3817039) |
 | Bridging AI Prompting and Design Thinking: Behavioral Patterns and Pedagogical Insights from a Design Workshop | published | [PDF on ResearchGate](https://www.researchgate.net/publication/408145367_Bridging_AI_Prompting_and_Design_Thinking_Behavioral_Patterns_and_Pedagogical_Insights_from_a_Design_Workshop) | [Source](https://www.researchgate.net/publication/408145367_Bridging_AI_Prompting_and_Design_Thinking_Behavioral_Patterns_and_Pedagogical_Insights_from_a_Design_Workshop) |
 | Web-Based Gamified Auditory-Cognitive Dual-Task Training for Older Adults With Age-Related Hearing Loss: Pilot Randomized Controlled Trial | published | [PDF](https://aging.jmir.org/2026/1/e84083/PDF) | [Source](https://aging.jmir.org/2026/1/e84083) |
 | Digital Humans for Depression Assessment and Intervention Support: Scoping Review | published | [PDF](https://mental.jmir.org/2026/1/e79954/PDF) | [Source](https://mental.jmir.org/2026/1/e79954) |

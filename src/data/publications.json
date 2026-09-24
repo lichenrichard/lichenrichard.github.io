@@ -20,6 +20,25 @@
     "pdfPage": "https://www.researchgate.net/publication/408145367_Bridging_AI_Prompting_and_Design_Thinking_Behavioral_Patterns_and_Pedagogical_Insights_from_a_Design_Workshop"
   },
   {
+    "id": "doi-10-1145-3817039",
+    "title": "\"When I see Jodie, I feel relaxed\": Examining the Impact of a Virtual Supporter in Remote Psychotherapy",
+    "authors": "Cao, J., Li, C., Gao, W., Hoermann, S., Baghaei, N., & Billinghurst, M.",
+    "year": 2026,
+    "type": "journal",
+    "status": "published",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction",
+    "citation": "Cao, J., Li, C., Gao, W., Hoermann, S., Baghaei, N., & Billinghurst, M. (2026). \"When I see Jodie, I feel relaxed\": Examining the impact of a virtual supporter in remote psychotherapy. Proceedings of the ACM on Human-Computer Interaction, 10(6), 1–32. https://doi.org/10.1145/3817039",
+    "doi": "https://doi.org/10.1145/3817039",
+    "tags": [
+      "human-ai",
+      "wellbeing"
+    ],
+    "projectIds": [],
+    "featured": false,
+    "pdfVersion": "published",
+    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3817039"
+  },
+  {
     "id": "doi-10-2196-84083",
     "title": "Web-Based Gamified Auditory-Cognitive Dual-Task Training for Older Adults With Age-Related Hearing Loss: Pilot Randomized Controlled Trial",
     "authors": "Zhao, I. Y., Leung, A. Y. M., Li, C., Lloyd Parial, L., Ma, H., Montayre, J., Golub, J. S., Sweetow, R., Ng, J. H.-Y., & Chan, E. A.",
