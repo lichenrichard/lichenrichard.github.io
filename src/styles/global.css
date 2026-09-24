@@ -154,7 +154,7 @@
   .publication-year { font-size: 1.05rem; font-variant-numeric: tabular-nums; }
   .publication-year span { display: block; margin-top: 5px; font-size: .72rem; color: var(--muted); }
   .publication-body { min-width: 0; }
-  .publication-body h3 { font-size: 1.2rem; line-height: 1.5; letter-spacing: 0; }
+  .publication-body h3 { font-size: 1.2rem; line-height: 1.5; letter-spacing: 0; text-wrap: wrap; }
   .publication-body h3 a { text-decoration: none; }
   .publication-authors { font-size: .8rem; margin-top: 9px; }
   .publication-venue { color: var(--ink); font-size: .8rem; margin-top: 5px; }
