@@ -1,5 +1,38 @@
 [
   {
+    "id": "culturecraft",
+    "title": "CultureCraft",
+    "summary": "Helping university students practise intercultural communication through conversational AI role-play, feedback, and reflection.",
+    "tags": [
+      "human-ai",
+      "education",
+      "social"
+    ],
+    "fullTitle": "CultureCraft: Scenario-based Learning with Conversational AI Agents to Enhance Intercultural Communication Competence",
+    "period": "2026-NOW",
+    "institution": "The Hong Kong Polytechnic University",
+    "funders": [
+      {
+        "label": "The Hong Kong Polytechnic University",
+        "url": "https://www.polyu.edu.hk/en/"
+      }
+    ],
+    "descriptionHtml": "<p>CultureCraft explores how conversational AI can help university students develop intercultural communication competence through authentic practice, feedback, and reflection. The project aims to prepare students for overseas exchanges, internships, and collaboration in culturally diverse classrooms and workplaces.</p><h3>Practice, reflection, and another attempt</h3><p>CultureCraft brings together scenario-based and experiential learning. Students will rehearse conversations with AI agents playing roles such as an exchange student or a flatmate from a different cultural background. Each scenario presents a realistic communication challenge, with opportunities to practise perspective-taking, build rapport, navigate disagreement, and repair misunderstandings.</p><blockquote>The learning cycle moves from a realistic interaction to guided reflection, and another opportunity to try a different approach, with gamification elements built in.</blockquote><p>Inbound and outbound exchange students will help co-design the scenarios so that activities reflect lived experiences and diverse perspectives. Cultural authenticity, inclusion, and psychological safety guide the design, with safeguards intended to address bias and stereotyping and support learners with different language backgrounds and prior international experience.</p><h3>Studying learning beyond the simulation</h3><p>The proposed 24-month programme covers co-design and platform development, a pilot study, longitudinal evaluation, and dissemination. The evaluation will combine intercultural competence measures, role-play analysis, platform interaction data, and student interviews. Assessments before training, before exchange, and after exchange will examine both learning gains and how students apply their learning in real situations.</p><p>A staggered waitlist design will allow participating students to receive the training at different times, supporting comparisons across cohorts while giving all participants access to CultureCraft.</p><h3>Resources for wider use</h3><p>Planned outputs include the CultureCraft platform, a reusable scenario library, facilitator guides, assessment rubrics, and train-the-trainer resources. Findings will inform further development and wider adoption across the university community.</p><p>The project is led by Chen Li, with Beckie Li as Co-Investigator, bringing together computing and intercultural education expertise at The Hong Kong Polytechnic University.</p>",
+    "image": "/images/culturecraft-banner-pixelated.webp",
+    "banner": {
+      "src": "/images/culturecraft-banner-pixelated.webp",
+      "alt": "CultureCraft globe logo and Enter CultureCraft inside a pixel-art window above a moonlit campus."
+    },
+    "images": [],
+    "links": [
+      {
+        "label": "Related project: ESAIAS",
+        "url": "/esaias.html"
+      }
+    ],
+    "awards": []
+  },
+  {
     "id": "esaias",
     "title": "ESAIAS",
     "summary": "A generative AI school community where adolescents with autism practise collaboration, emotional regulation, and social interaction.",

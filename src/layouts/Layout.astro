@@ -3,8 +3,8 @@ import '../styles/global.css';
 import ThemeToggle from '../components/ThemeToggle.astro';
 import themeScript from '../scripts/theme.js?raw';
 import { site } from '../data/site';
-interface Props { title: string; description: string; active?: string; image?: string; noindex?: boolean; }
-const { title, description, active = '', image = '/images/social-preview.png', noindex = false } = Astro.props;
+interface Props { title: string; description: string; active?: string; image?: string; imageAlt?: string; noindex?: boolean; }
+const { title, description, active = '', image = '/images/social-preview.png', imageAlt = `${site.name}, human-centred computing researcher`, noindex = false } = Astro.props;
 const route = Astro.url.pathname.replace(/\/$/, '');
 const path = !route || route === '/index.html' ? '/' : route.endsWith('.html') ? route : `${route}.html`;
 const canonical = new URL(path, site.url).href;
@@ -31,7 +31,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: 
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={new URL(image, site.url).href} />
-    <meta property="og:image:alt" content={`${site.name}, human-centred computing researcher`} />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     {path === '/' && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
     <slot name="head" />

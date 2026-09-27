@@ -217,6 +217,8 @@
   .footer-bottom { padding-block: 22px; display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); font-size: .7rem; color: var(--muted); }
   .footer-bottom > div { display: flex; gap: 22px; }
   .footer-bottom a { text-decoration: none; }
+  .project-banner { margin-bottom: clamp(30px, 4vw, 44px); }
+  .project-banner img { width: 100%; height: auto; border-radius: 10px; }
   .detail-layout { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 70px; align-items: start; }
   .detail-sidebar { border-top: 2px solid var(--ink); padding-top: 20px; }
   .detail-sidebar h2 { font-family: var(--font-body); font-size: .75rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 15px; }

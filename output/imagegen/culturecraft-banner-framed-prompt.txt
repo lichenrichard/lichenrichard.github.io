@@ -1,0 +1,13 @@
+Generator: built-in image_gen
+
+Use case: compositing
+Asset type: revised wide 16:9 CultureCraft project banner.
+Input image 1 is the previously generated banner and the edit target. Input image 2 is the authoritative source for the original UI window frame and brand logo.
+User correction: KEEP THE UI FRAME.
+Make one focused change to image 1: restore the pixel-art window UI around the central globe logo and ENTER CULTURECRAFT lettering, closely matching the window in image 2. Preserve image 1's pixelated campus/city background, architecture, warm window lights, moon, night sky, rich colors and wide landscape composition.
+Frame: a complete, crisp rectangular pixel window with stepped square corners, double beveled muted-blue border, darker outer pixel shadow, blue header bar, and the three small red, yellow and green square window controls at the upper left exactly like image 2. Include all four edges of the frame fully visible. Keep the header bar but REMOVE ONLY the words CULTURECRAFT LOGIN, leaving that header area clean.
+Composition: center the window horizontally in the upper-middle of the banner. Approximately 54–58% of canvas width and 48–52% of canvas height, its top about 6% below the top of the banner. Leave the moon visible to its left. Keep plenty of the pixel-art skyline and the main campus buildings visible below and to either side. The window interior is deep navy like image 2. Give the contents generous spacing.
+Inside window: keep a single centered copy of the original globe mark above a single line of text. Preserve the globe's cyan ocean, green land, curved white/cyan stripe, dark-blue layered base, white speech bubble with cyan marks, and tiny red flag, with the same design as image 2.
+Text (verbatim): "ENTER CULTURECRAFT".
+Use the same chunky pixel lettering: ENTER warm white and CULTURECRAFT golden yellow. No spelling changes and no duplicate text outside the window.
+Constraints: this is a banner image, not a functional login screen. Keep the UI FRAME, colored squares and blank blue header. No CULTURECRAFT LOGIN heading, no fields, no extra buttons, no new copy, no watermarks. Preserve the strongly pixelated background, crisp pixel edges and 16-bit visual style. Return the complete finished banner.

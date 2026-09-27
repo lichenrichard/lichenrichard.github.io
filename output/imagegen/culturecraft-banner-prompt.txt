@@ -1,0 +1,13 @@
+Generator: built-in image_gen
+
+Use case: compositing
+Asset type: finished project banner, wide 16:9 landscape, ideally 2048 x 1152.
+Primary request: Combine the two reference images into one polished pixel-art CultureCraft project banner.
+Input images: Image 1 is the background edit target: the moonlit Hong Kong waterfront campus/city. Image 2 is the supporting foreground insert: use its existing pixel-art globe logo and its ENTER CULTURECRAFT wordmark only.
+Background: Preserve the recognizable city/campus architecture, curved white building, orange campus buildings, illuminated windows, blue sports courts, harbour, mountain silhouette, stars and moon from image 1. Recompose into a wide banner by widening the scene naturally. Make it substantially more pixelated with deliberate crisp 16-bit pixel-art clusters, stepped edges, limited rich color ramps and restrained dithering. Clear blocky pixel art, not blurry photographic pixelation. Deep midnight navy sky, warm amber lights, cool cyan accents.
+Foreground: Faithfully retain the exact character and details of the source globe logo from image 2: cyan-blue Earth with green land, layered dark-blue bottom and white/cyan curved stripe, white speech bubble containing small cyan marks above the globe at the right, small red flag. Treat it as an existing brand mark; do not redesign it. Place it prominently in the upper central sky with the wordmark below it. Keep logo and wordmark entirely legible against calm dark sky and above the main buildings. Give the lockup comfortable spacing and generous outer margins.
+Text (verbatim, single line): "ENTER CULTURECRAFT"
+Typography: Match the chunky pixel lettering in image 2. ENTER in warm white, CULTURECRAFT in golden yellow, subtle dark pixel shadow for contrast. Correct spelling. One copy of the phrase.
+Layout: Centered globe and wordmark in the upper half; recognizable campus panorama fills the lower half, moon offset to the left. Integrate naturally as a title-screen-style project banner, with strong thumbnail readability.
+Remove: the entire login dialog, rectangular frame, border, title bar, colored window-control squares, all wording "CULTURECRAFT LOGIN", and the flat opaque panel from image 2.
+Constraints: retain the original logo's identity and palette; no added text, no login controls, no buttons, no borders, no new symbols, no watermark, no device mockup. Only the finished full-bleed banner.

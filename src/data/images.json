@@ -1,4 +1,11 @@
 {
+  "culturecraft-banner-pixelated": {
+    "src": "/images/culturecraft-banner-pixelated.webp",
+    "width": 1672,
+    "height": 941,
+    "smallSrc": "/images/culturecraft-banner-pixelated-480.webp",
+    "smallWidth": 480
+  },
   "avatar-2": {
     "src": "/images/avatar-2.webp",
     "width": 640,
