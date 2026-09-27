@@ -81,8 +81,7 @@
   .eyebrow { display: block; margin-bottom: 18px; font-size: .73rem; font-weight: 600; letter-spacing: .075em; text-transform: uppercase; color: var(--accent); }
   .section-number { color: var(--muted); margin-right: 13px; }
   .page-header { padding-block: 68px 44px; }
-  .page-header h1 { max-width: 970px; }
-  .lead { max-width: 720px; margin-top: 22px; font-size: 1.13rem; line-height: 1.75; }
+  .lead { margin-top: 22px; font-size: 1.13rem; line-height: 1.75; }
   .project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; }
   .media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 30px; }
   .prose { max-width: 760px; font-size: 1.05rem; }
@@ -103,7 +102,6 @@
   #navigation { display: flex; align-items: center; gap: 28px; }
   #navigation a { font-size: .85rem; text-decoration: none; padding-block: 12px; }
   #navigation [aria-current="page"] { color: var(--accent); font-weight: 650; }
-  #navigation .nav-contact { padding: 10px 16px; border: 1px solid var(--line); border-radius: 6px; }
   .nav-toggle { display: none; min-height: 44px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 6px; padding: 10px 12px; }
   .nav-toggle-icon { margin-left: 8px; }
   .hero { padding-block: 64px 60px; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); align-items: center; gap: 74px; }
