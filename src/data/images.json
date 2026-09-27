@@ -1,4 +1,25 @@
 {
+  "culturecraft-scenario": {
+    "src": "/images/culturecraft-scenario.webp",
+    "width": 2644,
+    "height": 1896,
+    "smallSrc": "/images/culturecraft-scenario-480.webp",
+    "smallWidth": 480
+  },
+  "culturecraft-roleplaying": {
+    "src": "/images/culturecraft-roleplaying.webp",
+    "width": 2690,
+    "height": 1812,
+    "smallSrc": "/images/culturecraft-roleplaying-480.webp",
+    "smallWidth": 480
+  },
+  "culturecraft-reflection-and-logs": {
+    "src": "/images/culturecraft-reflection-and-logs.webp",
+    "width": 2728,
+    "height": 1846,
+    "smallSrc": "/images/culturecraft-reflection-and-logs-480.webp",
+    "smallWidth": 480
+  },
   "culturecraft-banner-pixelated": {
     "src": "/images/culturecraft-banner-pixelated.webp",
     "width": 1672,

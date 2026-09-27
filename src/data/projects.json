@@ -23,7 +23,23 @@
       "src": "/images/culturecraft-banner-pixelated.webp",
       "alt": "CultureCraft globe logo and Enter CultureCraft inside a pixel-art window above a moonlit campus."
     },
-    "images": [],
+    "images": [
+      {
+        "src": "/images/culturecraft-scenario.webp",
+        "alt": "CultureCraft scenario selection with dinner preparation, dinner chat, group project, and ice-breaking activities.",
+        "caption": "Fig. 1 - Choose an intercultural communication scenario and revisit previous activities."
+      },
+      {
+        "src": "/images/culturecraft-roleplaying.webp",
+        "alt": "CultureCraft role-playing screen with AI characters in a shared room, a task list, chat history, and character badges.",
+        "caption": "Fig. 2 - Practise conversations with AI characters, complete scenario tasks, and unlock badges."
+      },
+      {
+        "src": "/images/culturecraft-reflection-and-logs.webp",
+        "alt": "CultureCraft profile showing character badges, session logs, a communication skills radar chart, and suggestions for improvement.",
+        "caption": "Fig. 3 - Review session logs, communication feedback, and progress to guide reflection and further practice."
+      }
+    ],
     "links": [
       {
         "label": "Related project: ESAIAS",
